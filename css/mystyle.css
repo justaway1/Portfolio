@@ -1,5 +1,8 @@
+
+
 * {
-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+    box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
@@ -36,17 +39,28 @@ max-width: 100%;
 
 
 .main-header {
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
 margin: 5px 0;
-justify-content: space-between;
-box-shadow: 0 5px 10px rgb(0, 0, 0);
+-webkit-box-pack: justify;
+-ms-flex-pack: justify;
+    justify-content: space-between;
+-webkit-box-shadow: 0 5px 10px rgb(0, 0, 0);
+    box-shadow: 0 5px 10px rgb(0, 0, 0);
 background-color: var(--darker-background);
 }
 
 .logo-name {
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
-justify-content: center;
-align-items: center;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+    justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+    align-items: center;
 }
 
 .brand span {
@@ -60,7 +74,6 @@ color: var(--text-color);
 font-size: 30px;
 }
 
-
 .logo-name i {
 margin: 10px 25px;
 color: rgb(240, 231, 216);
@@ -68,16 +81,25 @@ color: rgb(240, 231, 216);
 
 
 .main-navigation {
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
 
 
 }
 
 .main-navigation ul{
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
-flex-direction: row;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+-ms-flex-direction: row;
+    flex-direction: row;
 justify-items: center;
-align-items: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+    align-items: center;
 padding: 0 30px;
 
 }
@@ -107,11 +129,17 @@ color: var(--link-colors);
 /* Main Introduction Section */
 
 .main-section {
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
-margin: 0 10px;
-height: 100vh;
-align-items: center;
-justify-content: space-evenly;
+margin: 0 auto;
+height: 90vh;
+-webkit-box-align: center;
+-ms-flex-align: center;
+    align-items: center;
+-webkit-box-pack: space-evenly;
+-ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
 }
 
 .main-section h1 {
@@ -146,6 +174,8 @@ border: 2px solid var(--text-color);
 
 .main-button:hover {
 color: #fff;
+-webkit-transition: 0.5s;
+-o-transition: 0.5s;
 transition: 0.5s;
 background-color: var(--text-color);
 }
@@ -170,6 +200,5 @@ font-size: 35px;
 .main-section a i:hover {
 color: var(--link-colors);
 }
-
 
 
