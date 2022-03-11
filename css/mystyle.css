@@ -15,7 +15,7 @@ padding: 0;
 }
 
 ::selection {
-    background: transparent;
+background: transparent;
 }
 
 body {
@@ -209,45 +209,45 @@ color: var(--link-colors);
 }
 
 .scroll-down-left {
-    font-size: 14px;
-    position: absolute;
-    color: white;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    left: 10px;
-    bottom: 0;
+font-size: 14px;
+position: absolute;
+color: white;
+justify-content: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+left: 10px;
+bottom: 0;
 
 }
 
 .scroll-down-right {
-    font-size: 14px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    right: 10px;
-    bottom: 0;
-    
+font-size: 14px;
+color: white;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+position: absolute;
+right: 10px;
+bottom: 0;
+
 }
 
 .scroll-down-left > span, .scroll-down-right > span{
-    font-weight: 600;
-    border-radius: 10px;
-    transform: rotate(-90deg);
-    margin-bottom: 10px;
-    writing-mode: vertical-rl;
-    animation-timing-function: ease-in-out;
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
-    letter-spacing: 3px;
+font-weight: 600;
+border-radius: 10px;
+transform: rotate(-90deg);
+margin-bottom: 10px;
+writing-mode: vertical-rl;
+animation-timing-function: ease-in-out;
+animation-duration: 2.5s;
+animation-iteration-count: infinite;
+letter-spacing: 3px;
 }
 
 .scroll-down-left i, .scroll-down-right i {
-    color: var(--text-color);
+color: var(--text-color);
 }
 
 
