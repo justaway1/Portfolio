@@ -1,5 +1,6 @@
 
 
+
 * {
 -webkit-box-sizing: border-box;
 box-sizing: border-box;
@@ -12,6 +13,10 @@ padding: 0;
 --darker-background: rgb(40, 66, 93);
 --text-color: #FC766AFF;
 --link-colors: rgb(194, 191, 185);
+}
+
+::-moz-selection {
+background: transparent;
 }
 
 ::selection {
@@ -136,6 +141,8 @@ color: var(--link-colors);
 display: -webkit-box;
 display: -ms-flexbox;
 display: flex;
+-webkit-box-flex: 1;
+-ms-flex: 1;
 flex: 1;
 margin: 20px 50px;
 -webkit-box-align: center;
@@ -212,9 +219,18 @@ color: var(--link-colors);
 font-size: 14px;
 position: absolute;
 color: white;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
 justify-content: center;
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-ms-flex-direction: column;
 flex-direction: column;
+-webkit-box-align: center;
+-ms-flex-align: center;
 align-items: center;
 left: 10px;
 bottom: 0;
@@ -224,9 +240,18 @@ bottom: 0;
 .scroll-down-right {
 font-size: 14px;
 color: white;
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
 justify-content: center;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-ms-flex-direction: column;
 flex-direction: column;
+-webkit-box-align: center;
+-ms-flex-align: center;
 align-items: center;
 position: absolute;
 right: 10px;
@@ -237,11 +262,18 @@ bottom: 0;
 .scroll-down-left > span, .scroll-down-right > span{
 font-weight: 600;
 border-radius: 10px;
+-webkit-transform: rotate(-90deg);
+-ms-transform: rotate(-90deg);
 transform: rotate(-90deg);
 margin-bottom: 10px;
+-webkit-writing-mode: vertical-rl;
+-ms-writing-mode: tb-rl;
 writing-mode: vertical-rl;
+-webkit-animation-timing-function: ease-in-out;
 animation-timing-function: ease-in-out;
+-webkit-animation-duration: 2.5s;
 animation-duration: 2.5s;
+-webkit-animation-iteration-count: infinite;
 animation-iteration-count: infinite;
 letter-spacing: 3px;
 }
@@ -249,6 +281,5 @@ letter-spacing: 3px;
 .scroll-down-left i, .scroll-down-right i {
 color: var(--text-color);
 }
-
 
 
