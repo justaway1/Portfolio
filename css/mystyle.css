@@ -323,17 +323,6 @@
         font-size: 400px;
         filter: blur(1px);
     }
-    /* IMAGES SEPARATORS */
-    
-    .image-separator {
-        display: flex;
-        justify-content: center;
-    }
-    
-    .image-separator img {
-        width: 40%;
-        z-index: -10;
-    }
     /* WORK SHOWCASE */
     
     .work-showcase {
