@@ -531,6 +531,7 @@ img {
 /* Section About me */
 
 .about-me {
+    overflow: hidden;
     position: relative;
     display: flex;
     margin: 100px 0;
@@ -590,7 +591,7 @@ img {
 /* CONTACT ME SECTION */
 
 .contact-me-section {
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
 }
