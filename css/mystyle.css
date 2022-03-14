@@ -315,6 +315,10 @@ img {
     margin-right: 50px;
 }
 
+.portfolio-section p {
+    margin-left: 20px;
+}
+
 .big-text {
     position: absolute;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -478,7 +482,7 @@ img {
     -ms-flex-align: center;
     align-items: center;
     left: 10px;
-    bottom: -1050px;
+    bottom: -970px;
 }
 
 .scroll-down-right-1 {
