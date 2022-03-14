@@ -531,8 +531,8 @@ img {
 /* Section About me */
 
 .about-me {
-    overflow: hidden;
     position: relative;
+    overflow: hidden;
     display: flex;
     margin: 99px 0;
     padding: 50px 50px;
@@ -570,7 +570,7 @@ img {
 .side-image img {
     position: absolute;
     bottom: 230px;
-    filter: drop-shadow(-5px 0 2px black)
+    filter: drop-shadow(-5px 0 2px black);
 }
 
 .big-text-one {
