@@ -1,4 +1,4 @@
-* {
+    * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0;
@@ -222,7 +222,7 @@
     /* Scroll Down Section */
 
     .scroll-down-left {
-    font-size: 14px;
+    font-size: 12px;
     position: absolute;
     color: white;
     -webkit-box-pack: center;
@@ -244,7 +244,7 @@
     }
 
     .scroll-down-right {
-    font-size: 14px;
+    font-size: 12px;
     color: white;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -296,20 +296,23 @@
     display: flex;
     border-radius: 10px;
     justify-content: space-between;
-    padding: 100px 30px;
+    padding: 100px 30px 100px 0;
     margin: 50px 100px;
     }
 
 
     .main-text {
+    border-left: 15px solid var(--darker-background);
     font-size: 60px;
+    border-radius: 10px;
+    padding-left: 10px;
     color: var(--text-color);
     margin-bottom: 10px;
     filter: drop-shadow(0 1px 0 black);
 
     }
 
-    .portfolio-section p {
+    .little-info {
     font-size: 20px;
     padding-left: 10px;
     color: #fff;
@@ -332,6 +335,7 @@
     top: 800px;
     left: 35vw;
     font-size: 400px;
+    filter: blur(1px);
 
     }
 
@@ -360,12 +364,12 @@
 
 .project {
     position: absolute;
-    bottom: 100%;
     overflow: hidden;
     background-color: var(--text-color);
     left: 0;
     right: 0;
     height: 0;
+    bottom: 100%;
     width: 100%;
     transition: 0.3s ease-in-out;
     
@@ -380,7 +384,7 @@
 }
 
 .project .future-projects {
-    font-size: 35px;
+    font-size: 40px;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: absolute;
@@ -395,7 +399,8 @@
 .project-1 {
     position: absolute;
     overflow: hidden;
-    background-color: var(--text-color);
+    background-color: var(--link-colors);
+    top: 0;
     left: 100%;
     right: 0;
     height: 100%;
@@ -415,7 +420,7 @@
 }
 
 .project-1 .future-projects {
-    font-size: 35px;
+    font-size: 20px;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: absolute;
@@ -424,6 +429,15 @@
     text-align: center;
     transform: translate(-50%, -50%);
     white-space: nowrap;
+}
+
+
+
+.project-1 .future-projects i {
+    margin-left: 10px;
+}
+.project-1 .future-projects i:hover {
+    color: var(--darker-background);
 }
 
 .project-2 {
@@ -461,12 +475,146 @@
 }
 
 
-/*  NEW*/
+/*  More Side Scroll Downs*/
  
-.new-section { 
-    display: flex;
-    margin-bottom: 50px;
+
+
+.scroll-down-left-1 {
+    font-size: 12px;
+    position: absolute;
+    color: white;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    left: 10px;
+    bottom: -1050px;
+
+    }
+
+    .scroll-down-right-1 {
+    font-size: 12px;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    bottom: -1050px;
+
+    }
+
+    .scroll-down-left-1 > span, .scroll-down-right-1 > span{
+    font-weight: 600;
+    border-radius: 10px;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    margin-bottom: 10px;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    letter-spacing: 3px;
+    }
+
+    .scroll-down-left-1 i, .scroll-down-right-1 i {
+    color: var(--text-color);
+    }
+
+
+    /* Section About me */
+
+    .about-me {
+        position: relative;
+        display: flex;
+        margin: 100px 0;
+        padding: 50px 50px;
+
+    }
+
+    .info-about-me .little-info{
+        margin-bottom: 15px;
+        text-indent: 10px;
+    }
+
+   .info-about-me {
+       max-width: 35%;
+       margin-right: 15px;
+   }
+
+   .about-me .main-text {
+       margin-bottom: 25px;
+       line-height: 1;
+   }
+
+.info-about-me .little-info::first-letter {
+    font-size: 40px;
+    padding-right: 2px;
+    font-weight: bold;
+    color: var(--text-color);
 }
 
+
+.about-me .side-image {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.side-image img {
+    position: absolute;
+    bottom: 230px;
+    filter:drop-shadow(-5px 0 2px black)
+
+}
+
+
+.big-text-one {
+    position: absolute;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color: var(--lighter-background);
+    z-index: -1;
+    font-size: 250px;
+    bottom: 50px;
+    right: 10px;
+    transform: rotate(-10deg);
+    filter: blur(1px);
+    letter-spacing: 5px;
+}
+
+
+/* CONTACT ME SECTION */
+
+.contact-me-section {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+
+}
