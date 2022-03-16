@@ -684,7 +684,6 @@ img {
 
 .overlay-image {
     position: absolute;
-    z-index: 1;
     width: 20%;
     height: 20%;
     top: 20px;
@@ -703,7 +702,6 @@ img {
 
 .location-image img{
     display: flex;
-    z-index: -1;
     justify-items: flex-end;
     margin-left: 80px;
     width: 100%;
