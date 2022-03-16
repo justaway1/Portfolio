@@ -629,6 +629,7 @@ img {
     flex-wrap: wrap;
     padding-top: 30px;
     padding-left: 30px;
+    height: 100%;
 }
 
 
@@ -696,6 +697,7 @@ img {
 }
 
 .location-image {
+    position: relative;
     width: 55%;
 }
 
