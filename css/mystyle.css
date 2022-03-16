@@ -26,7 +26,9 @@ html {
 }
 
 body {
-    background-color: var(--background-color);
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #6dd5ed, #5B84B1FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #6dd5ed, #5B84B1FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
 }
@@ -118,8 +120,8 @@ img {
 }
 
 .main-navigation ul li a:hover {
-    border-bottom: 2px inset var(--text-color);
-    border-right: 2px inset var(--text-color);
+    border-bottom: 2px solid var(--text-color);
+    border-right: 2px solid var(--text-color);
     background-color: rgba(66, 79, 82, 0.048);
     border-radius: 33%;
     color: whitesmoke;
@@ -293,10 +295,10 @@ img {
 }
 
 .main-text {
-    border-left: 15px solid var(--darker-background);
+    border-left: 7px solid var(--link-colors);
     font-size: 60px;
-    border-radius: 10px;
-    padding-left: 10px;
+    border-radius: 20px;
+    padding-left: 15px;
     color: var(--text-color);
     margin-bottom: 25px;
     filter: drop-shadow(0 1px 0 black);
@@ -327,7 +329,7 @@ img {
     color: var(--lighter-background);
     z-index: -1;
     top: 800px;
-    left: 35vw;
+    right: 0;
     font-size: 400px;
     filter: blur(1px);
 }
@@ -547,6 +549,8 @@ img {
     text-indent: 10px;
 }
 
+
+
 .info-about-me {
     max-width: 35%;
     margin-right: 15px;
@@ -554,6 +558,7 @@ img {
 
 .about-me .main-text {
     line-height: 1;
+
 }
 
 .info-about-me .little-info::first-letter {
@@ -594,7 +599,109 @@ img {
 /* CONTACT ME SECTION */
 
 .contact-me-section {
-    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 150px;
     display: flex;
-    justify-content: center;
+}
+
+.contact-form {
+    padding-top: 100px;
+}
+
+.contact-form .little-info {
+    margin-left: 23px;
+}
+
+.contact-form .the-button {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.the-button .main-button {
+    border-radius: 5px;
+}
+
+
+.actual-form {
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+
+.actual-form input[type="text"],
+.actual-form input[type="email"] {
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.actual-form input[type="text"] {
+    margin-bottom: 8px;
+    
+}
+
+.actual-form input[type="email"] {
+    margin-left: 3px;
+}
+
+.actual-form input[type="subject"] {
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 8px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.actual-form textarea {
+    padding: 10px 15px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
+.actual-form input[type="text"]:focus, 
+.actual-form input[type="email"]:focus,
+.actual-form input[type="subject"]:focus {
+    outline-style: none;
+}
+
+.actual-form textarea:focus {
+    outline-style: none;
+}
+
+/* LOCATION IMAGES */
+
+.overlay-image {
+    position: absolute;
+    z-index: 1;
+    width: 20%;
+    height: 20%;
+    top: 80px;
+    right: 380px;
+    opacity: 0.8;
+}
+
+.location-image {
+    width: 55%;
+}
+
+
+.location-image img{
+    display: flex;
+    z-index: -4;
+    justify-items: flex-end;
+    margin-left: 80px;
+    width: 100%;
+    height: auto;
 }
