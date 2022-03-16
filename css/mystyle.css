@@ -692,6 +692,10 @@ img {
     opacity: 0.8;
 }
 
+.overlay-image img {
+    border-radius: 10px;
+}
+
 .location-image {
     width: 55%;
 }
