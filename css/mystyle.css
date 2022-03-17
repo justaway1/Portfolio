@@ -113,18 +113,15 @@ img {
 }
 
 .main-navigation ul li a {
-    padding: 22px 22px;
+    padding: 32px 20px;
     margin: 0 10px;
     font-size: 15px;
     font-weight: bold;
 }
 
 .main-navigation ul li a:hover {
-    border-bottom: 2px solid var(--text-color);
-    border-right: 2px solid var(--text-color);
-    background-color: rgba(66, 79, 82, 0.048);
-    border-radius: 33%;
-    color: whitesmoke;
+    background-color: var(--text-color);
+    color: #fff;
 }
 
 .main-navigation ul li a {
@@ -601,9 +598,10 @@ img {
 .contact-me-section {
     overflow: hidden;
     position: relative;
-    margin-left: 100px;
-    margin-top: 150px;
+    margin-bottom: 30px;
     display: flex;
+    justify-content: center;
+    
 }
 
 .contact-form {
@@ -629,14 +627,13 @@ img {
     flex-wrap: wrap;
     padding-top: 30px;
     padding-left: 30px;
-    height: 100%;
 }
 
 
 .actual-form input[type="text"],
 .actual-form input[type="email"] {
     padding: 10px 15px;
-    font-size: 20px;
+    font-size: 30px;
     border-radius: 5px;
     border: none;
 }
@@ -652,7 +649,7 @@ img {
 
 .actual-form input[type="subject"] {
     width: 100%;
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 8px;
     padding: 10px 15px;
     border-radius: 5px;
@@ -663,7 +660,7 @@ img {
 .actual-form textarea {
     padding: 10px 15px;
     width: 100%;
-    font-size: 20px;
+    font-size: 30px;
     border-radius: 5px;
     border: none;
 }
@@ -681,31 +678,24 @@ img {
     outline-style: none;
 }
 
-/* LOCATION IMAGES */
 
-.overlay-image {
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    top: 20px;
-    right: 430px;
-    opacity: 0.8;
-}
+/* main Footer */
 
-.overlay-image img {
-    border-radius: 10px;
-}
-
-.location-image {
-    position: relative;
-    width: 55%;
-}
-
-
-.location-image img{
+.main-footer {
+    background-color: var(--darker-background);
+    height: 50px;
     display: flex;
-    justify-items: flex-end;
-    margin-left: 80px;
-    width: 100%;
-    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-footer p {
+    padding: 5px;
+    font-size: 15px;
+    color: var(--text-color);
+}
+
+
+.main-footer i {
+    margin-left: 50px;
 }
