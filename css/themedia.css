@@ -508,7 +508,8 @@
     }
 
     .actual-form .main-button {
-        font-size: 5px;
+        font-size: 8px;
+        padding: 10px 12px;
     }
 
     .actual-form .the-button {
@@ -554,11 +555,12 @@
     .introduction p {
         font-size: 8px;
         word-spacing: 1px;
-        margin-bottom: 25px;
+        margin-bottom: 15px;
     }
 
     .introduction .main-button {
-        font-size: 5px;
+        font-size: 8px;
+        padding: 10px 15px;
     }
 
     .introduction i {
@@ -584,7 +586,7 @@
         margin-top: 50px;
     }
 
-    .work-showcase .projects span  {
+    .work-showcase .projects span {
         font-size: 8px;
     }
 
@@ -606,14 +608,22 @@
         width: 70%;
     }
 
+    .introduction p {
+        margin-bottom: 10px;
+    }
+
+
     .introduction .main-button {
-        font-size: 4px;
+        text-align: center;
+        font-size: 8px;
+        display: block;
+        padding: 6px 6px;
     }
 
     .introduction i {
         -ms-flex-line-pack: center;
         align-content: center;
-        margin-top: 20px;
+        margin-top: 10px;
         padding-left: 5px;
         font-size: 8px;
     }
@@ -656,7 +666,8 @@
     }
 
     .actual-form .main-button {
-        font-size: 4px;
+        font-size: 8px;
+        padding: 5px 5px;
     }
 
     .contact-me-section {
@@ -674,5 +685,5 @@
         padding-bottom: 15px;
     }
 
-    
+
 }
