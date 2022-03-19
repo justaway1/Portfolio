@@ -1,4 +1,3 @@
-
 /* Little Laptops */
 
 @media only screen and (max-width: 1024px) {
@@ -509,11 +508,12 @@
         margin-top: 5px;
     }
 
-    
+
 
 }
 
 @media (max-width: 350px) {
+
     .actual-form input[type="text"],
     .actual-form input[type="email"],
     .actual-form input[type="subject"] {
