@@ -469,7 +469,7 @@
 /* SMALL PHONES */
 
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 420px) {
 
 
 
@@ -599,7 +599,7 @@
 }
 
 
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 400px) {
     .main-navigation ul li a {
         font-size: 7px;
     }
