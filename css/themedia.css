@@ -477,6 +477,11 @@
         overflow: hidden;
     }
 
+    .contact-form .little-info {
+        text-align: justify;
+        font-size: 0.65rem;
+    }
+
     .work-section .big-text {
         font-size: 150px;
         letter-spacing: 0;
@@ -604,6 +609,11 @@
         font-size: 7px;
     }
 
+    .contact-form .little-info {
+        font-size: 0.52rem;
+    }
+
+
     .main-image img {
         width: 70%;
     }
@@ -667,7 +677,7 @@
 
     .actual-form .main-button {
         font-size: 8px;
-        padding: 5px 5px;
+        padding: 8px 15px;
     }
 
     .contact-me-section {
