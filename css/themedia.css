@@ -469,7 +469,7 @@
 /* SMALL PHONES */
 
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 350px) {
 
     .work-section .big-text {
         font-size: 140px;
@@ -512,7 +512,7 @@
 
 }
 
-@media (max-width: 350px) {
+@media only screen and (max-width: 300px) {
 
     .actual-form input[type="text"],
     .actual-form input[type="email"],
