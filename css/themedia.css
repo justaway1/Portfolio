@@ -469,10 +469,16 @@
 /* SMALL PHONES */
 
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 300px) {
+
+
+
+    .work-section {
+        overflow: hidden;
+    }
 
     .work-section .big-text {
-        font-size: 140px;
+        font-size: 120px;
         letter-spacing: 0;
         right: 20px;
         top: 520px;
@@ -481,14 +487,14 @@
     .about-me .big-text-one {
         font-size: 81px;
         left: 10px;
-        top: 450px;
+        top: 550px;
         opacity: 0.4;
     }
 
     .actual-form input[type="text"],
     .actual-form input[type="email"],
     .actual-form input[type="subject"] {
-        font-size: 10px;
+        font-size: 0.43rem;
     }
 
     .actual-form {
@@ -497,54 +503,83 @@
 
 
     .actual-form textarea {
-        font-size: 11.8px;
+        font-size: 0.43rem;
     }
 
     .actual-form .main-button {
-        font-size: 9px;
+        font-size: 5px;
     }
 
     .actual-form .the-button {
         margin-top: 5px;
     }
 
-
-
-}
-
-@media only screen and (max-width: 300px) {
-
-    .actual-form input[type="text"],
-    .actual-form input[type="email"],
-    .actual-form input[type="subject"] {
-        font-size: 9.9px;
+    .contact-me-section {
+        padding-right: 40px;
     }
 
-    .actual-form {
-        padding-left: 0;
+    .main-footer {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
     }
 
-
-    .actual-form textarea {
-        font-size: 11.8px;
-    }
-
-    .actual-form .main-button {
+    .main-footer p {
         font-size: 9px;
     }
 
-    .actual-form .the-button {
-        margin-top: 5px;
-    }
-
-    .about-me .big-text-one {
-        font-size: 80px;
-        left: 10px;
-        top: 500px;
-        opacity: 0.4;
+    .main-footer i {
+        margin-left: 25px;
+        font-size: 13px;
     }
 
     .main-navigation ul li a {
+        font-size: 6px;
+    }
+
+    .introduction h1 {
+        line-height: 1.2;
+        padding-top: 25px;
+        font-size: 20px;
+    }
+
+    .introduction p {
+        font-size: 8px;
+        word-spacing: 1px;
+        margin-bottom: 25px;
+    }
+
+    .introduction .main-button {
+        font-size: 5px;
+    }
+
+    .introduction i {
+        -ms-flex-line-pack: center;
+        align-content: center;
+        margin-top: 20px;
+        padding-left: 10px;
         font-size: 8px;
     }
+
+    .logo-name i {
+        font-size: 25px;
+        padding: 0;
+    }
+
+    .brand h3,
+    .brand span {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+
+    .work-showcase .projects span  {
+        font-size: 8px;
+    }
+
+    .work-showcase .projects i {
+        font-size: 8px;
+    }
+
+
+
 }
