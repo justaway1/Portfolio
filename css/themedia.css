@@ -610,7 +610,15 @@
     }
 
     .contact-form .little-info {
-        font-size: 0.52rem;
+        font-size: 0.8rem;
+        padding: 5px;
+        text-align: center;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+    }
+
+    .contact-form .main-text {
+        font-size: 30px;
     }
 
 
@@ -657,7 +665,7 @@
     .about-me .big-text-one {
         font-size: 81px;
         left: 10px;
-        top: 500px;
+        top: 250px;
         opacity: 0.4;
     }
 
@@ -681,11 +689,7 @@
     }
 
     .contact-me-section {
-        padding: 0 50px;
-    }
-
-    .contact-me-section {
-        padding-top: 100px;
+        padding: 50px 50px;
         margin: 0;
         justify-content: center;
         align-items: center;
