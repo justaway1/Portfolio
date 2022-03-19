@@ -428,7 +428,7 @@ img {
     margin-left: 10px;
 }
 
-.project .future-projects i:hover, 
+.project .future-projects i:hover,
 .project-1 .future-projects i:hover,
 .project-2 .future-projects i:hover {
     color: var(--darker-background);
