@@ -551,4 +551,42 @@
         margin-top: 5px;
     }
 
+    
+
+}
+
+@media (max-width: 350px) {
+    .actual-form input[type="text"],
+    .actual-form input[type="email"],
+    .actual-form input[type="subject"] {
+        font-size: 9.9px;
+    }
+
+    .actual-form {
+        padding-left: 0;
+    }
+
+
+    .actual-form textarea {
+        font-size: 11.8px;
+    }
+
+    .actual-form .main-button {
+        font-size: 9px;
+    }
+
+    .actual-form .the-button {
+        margin-top: 5px;
+    }
+
+    .about-me .big-text-one {
+        font-size: 80px;
+        left: 10px;
+        top: 500px;
+        opacity: 0.4;
+    }
+
+    .main-navigation ul li a {
+        font-size: 8px;
+    }
 }
