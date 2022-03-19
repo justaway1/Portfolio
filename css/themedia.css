@@ -1,0 +1,554 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/* HD Media */
+
+@media only screen and (max-width: 2560px) {
+
+    .side-image img {
+        bottom: 75px;
+    }
+
+    .about-me .big-text-one {
+        top: 150px;
+        right: 300px;
+    }
+}
+
+/* Large Laptops */
+
+@media only screen and (max-width: 1440px) {
+    .main-text {
+        font-size: 50px;
+    }
+
+    .little-info {
+        font-size: 18px;
+    }
+
+    .side-image img {
+        bottom: 190px;
+    }
+
+    .about-me .big-text-one {
+        right: 10px;
+        font-size: 220px;
+        top: 200px;
+    }
+}
+
+/* Little Laptops */
+
+@media only screen and (max-width: 1024px) {
+
+    .logo-name i {
+        font-size: 50px;
+    }
+
+    .brand h3,
+    .brand span {
+        font-size: 15px;
+    }
+
+    .main-navigation ul li a {
+        font-size: 13px;
+        padding: 23px 20px;
+    }
+
+
+    .introduction h1 {
+        font-size: 60px;
+    }
+
+    .introduction p {
+        font-size: 22px;
+    }
+
+    .introduction .main-button {
+        font-size: 18px;
+    }
+
+    .scroll-down-left span,
+    .scroll-down-right span,
+    .scroll-down-right-1 span,
+    .scroll-down-left-1 span {
+        font-size: 10px;
+    }
+
+    .scroll-down-left i,
+    .scroll-down-right i,
+    .scroll-down-right-1 i,
+    .scroll-down-left-1 i {
+        font-size: 20px;
+    }
+
+    .main-text {
+        font-size: 45px;
+    }
+
+    .little-info {
+        font-size: 17px;
+    }
+
+    .work-section .big-text {
+        font-size: 250px;
+        letter-spacing: 0;
+        right: 25px;
+        top: 835px;
+    }
+
+    .work-showcase {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .work-section {
+        margin-bottom: 0;
+    }
+
+    .side-image img {
+        bottom: 335px;
+        height: 70%;
+        width: 70%;
+    }
+
+    .about-me {
+        margin-bottom: 0;
+    }
+
+    .about-me .big-text-one {
+        font-size: 200px;
+        line-height: 1;
+        left: 400px;
+        text-align: center;
+    }
+
+    .actual-form input[type="text"],
+    .actual-form input[type="email"],
+    .actual-form input[type="subject"] {
+        font-size: 20px;
+    }
+
+
+    .actual-form textarea {
+        font-size: 20px;
+    }
+
+    .actual-form .main-button {
+        font-size: 18px;
+    }
+
+
+
+}
+
+/* TABLETS */
+
+
+@media only screen and (max-width: 768px) {
+
+
+    .logo-name i {
+        font-size: 40px;
+    }
+
+    .brand h3,
+    .brand span {
+        font-size: 13px;
+    }
+
+    .main-navigation ul li a {
+        font-size: 10px;
+        margin: 0;
+        padding: 20px 20px;
+    }
+
+    .main-image {
+        margin-right: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .main-image img {
+        width: 80%;
+        margin-right: 0;
+    }
+
+
+    .introduction h1 {
+        font-size: 45px;
+    }
+
+    .introduction p {
+        font-size: 15px;
+    }
+
+    .introduction .main-button {
+        font-size: 15px;
+    }
+
+    .introduction i {
+        font-size: 15px;
+    }
+
+    .scroll-down-left span,
+    .scroll-down-right span,
+    .scroll-down-right-1 span,
+    .scroll-down-left-1 span {
+        font-size: 8px;
+    }
+
+    .scroll-down-left i,
+    .scroll-down-right i,
+    .scroll-down-right-1 i,
+    .scroll-down-left-1 i {
+        font-size: 15px;
+    }
+
+    .main-text {
+        font-size: 38px;
+    }
+
+    .little-info {
+        font-size: 15px;
+    }
+
+    .work-section .big-text {
+        font-size: 310px;
+        letter-spacing: 0;
+        right: 40px;
+        top: 600px;
+    }
+
+
+    .work-showcase {
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    .work-showcase .projects {
+        width: 100%;
+    }
+
+    .work-section {
+        margin-bottom: 0;
+        margin-left: 60px;
+    }
+
+    .side-image img {
+        bottom: 405px;
+        width: 55%;
+        height: 55%;
+    }
+
+    .about-me {
+        margin-bottom: 0;
+    }
+
+    .about-me .big-text-one {
+        font-size: 150px;
+        line-height: 1;
+        left: 300px;
+        text-align: center;
+    }
+
+    .actual-form input[type="text"],
+    .actual-form input[type="email"],
+    .actual-form input[type="subject"] {
+        font-size: 20px;
+    }
+
+
+    .actual-form textarea {
+        font-size: 20px;
+    }
+
+    .actual-form .main-button {
+        font-size: 18px;
+    }
+
+}
+
+
+/* LARGE PHONES */
+
+@media only screen and (max-width: 426px) {
+
+    .logo-name i {
+        font-size: 40px;
+    }
+
+    .brand h3,
+    .brand span {
+        font-size: 13px;
+    }
+
+    .main-header {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding-bottom: 20px;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+    }
+
+    .main-navigation ul li a:hover {
+        color: var(--text-color);
+        background: none;
+    }
+
+
+
+    .main-navigation ul li a {
+        font-size: 10px;
+    }
+
+    .main-image {
+        margin: 0;
+        -ms-flex-item-align: baseline;
+        align-self: baseline;
+    }
+
+    .main-image img {
+        width: 100%;
+
+    }
+
+
+
+    .introduction h1 {
+        line-height: 1.2;
+        padding-top: 25px;
+        font-size: 30px;
+    }
+
+    .introduction p {
+        font-size: 12.5px;
+        word-spacing: 1px;
+        margin-bottom: 25px;
+    }
+
+    .introduction .main-button {
+        font-size: 10px;
+    }
+
+    .introduction i {
+        -ms-flex-line-pack: center;
+        align-content: center;
+        margin-top: 20px;
+        padding-left: 10px;
+        font-size: 13px;
+    }
+
+    .scroll-down-left span,
+    .scroll-down-right span,
+    .scroll-down-right-1 span,
+    .scroll-down-left-1 span {
+        font-size: 6px;
+    }
+
+    .scroll-down-left i,
+    .scroll-down-right i,
+    .scroll-down-right-1 i,
+    .scroll-down-left-1 i {
+        font-size: 12px;
+    }
+
+    .main-text {
+        font-size: 25px;
+    }
+
+    .little-info {
+        font-size: 12px;
+    }
+
+    .work-section .big-text {
+        font-size: 160px;
+        letter-spacing: 0;
+        right: 30px;
+        top: 510px;
+    }
+
+    .work-section {
+        margin-top: 50px;
+        margin-bottom: 0;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+
+    .work-showcase .projects {
+        width: 100%;
+    }
+
+    .work-showcase .projects span {
+        font-size: 15px;
+    }
+
+    .work-showcase {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 150px;
+    }
+
+
+    .side-image img {
+        display: none;
+    }
+
+    .about-me {
+        overflow: visible;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+
+    .about-me .main-text {
+        font-size: 30px;
+    }
+
+    .about-me .little-info {
+        font-size: 15px;
+    }
+
+    .about-me .little-info::first-letter {
+        font-size: 25px;
+    }
+
+    .about-me div:nth-child(2) {
+        max-width: 100%;
+    }
+
+    .about-me .big-text-one {
+        font-size: 100px;
+        left: 0;
+        top: 350px;
+        opacity: 0.4;
+    }
+
+    .contact-me-section {
+        margin-top: 150px;
+        padding: 0 20px;
+    }
+
+    .contact-form {
+        margin-top: 100px;
+        padding: 0;
+    }
+
+    .contact-form .little-info {
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .contact-form h2 {
+        margin-left: -10px;
+    }
+
+
+    .actual-form input[type="text"],
+    .actual-form input[type="email"],
+    .actual-form input[type="subject"] {
+        font-size: 11.8px;
+    }
+
+    .actual-form {
+        padding-left: 0;
+    }
+
+
+    .actual-form textarea {
+        font-size: 11.8px;
+    }
+
+    .actual-form .main-button {
+        font-size: 9px;
+    }
+
+    .actual-form .the-button {
+        margin-top: 5px;
+    }
+
+
+
+    .main-footer {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .main-footer p {
+        font-size: 12px;
+    }
+
+    .main-footer i {
+        margin-left: 25px;
+        font-size: 20px;
+    }
+
+}
+
+/* SMALL PHONES */
+
+
+@media only screen and (max-width: 380px) {
+
+    .work-section .big-text {
+        font-size: 140px;
+        letter-spacing: 0;
+        right: 20px;
+        top: 520px;
+    }
+
+    .about-me .big-text-one {
+        font-size: 80px;
+        left: 10px;
+        top: 450px;
+        opacity: 0.4;
+    }
+
+    .actual-form input[type="text"],
+    .actual-form input[type="email"],
+    .actual-form input[type="subject"] {
+        font-size: 10px;
+    }
+
+    .actual-form {
+        padding-left: 0;
+    }
+
+
+    .actual-form textarea {
+        font-size: 11.8px;
+    }
+
+    .actual-form .main-button {
+        font-size: 9px;
+    }
+
+    .actual-form .the-button {
+        margin-top: 5px;
+    }
+
+}

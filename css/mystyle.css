@@ -359,7 +359,7 @@ img {
 .project {
     position: absolute;
     overflow: hidden;
-    background-color: var(--text-color);
+    background-color: var(--link-colors);
     left: 0;
     right: 0;
     height: 0;
@@ -377,7 +377,7 @@ img {
 }
 
 .project .future-projects {
-    font-size: 40px;
+    font-size: 20px;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: absolute;
@@ -422,18 +422,22 @@ img {
     white-space: nowrap;
 }
 
-.project-1 .future-projects i {
+.project-1 .future-projects i,
+.project .future-projects i,
+.project-2 .future-projects i {
     margin-left: 10px;
 }
 
-.project-1 .future-projects i:hover {
+.project .future-projects i:hover, 
+.project-1 .future-projects i:hover,
+.project-2 .future-projects i:hover {
     color: var(--darker-background);
 }
 
 .project-2 {
     position: absolute;
     overflow: hidden;
-    background-color: var(--text-color);
+    background-color: var(--link-colors);
     left: 0;
     right: 100%;
     height: 100%;
@@ -452,7 +456,7 @@ img {
 }
 
 .project-2 .future-projects {
-    font-size: 35px;
+    font-size: 20px;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: absolute;
@@ -635,6 +639,9 @@ img {
 
 .actual-form input[type="text"],
 .actual-form input[type="email"] {
+    position: relative;
+    overflow: hidden;
+    transition: 0.8s ease;
     padding: 10px 15px;
     font-size: 30px;
     border-radius: 5px;
