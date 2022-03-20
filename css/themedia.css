@@ -391,14 +391,6 @@
         width: 100%;
     }
 
-    .project-1 .future-projects i,
-    .project .future-projects i,
-    .project-2 .future-projects i {}
-
-    .work-showcase .projects span {
-        font-size: 15px;
-    }
-
     .work-showcase {
         margin-left: 30px;
         margin-right: 30px;
