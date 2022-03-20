@@ -67,6 +67,17 @@
         margin-bottom: 0;
     }
 
+    .project-1 .future-projects i,
+    .project .future-projects i,
+    .project-2 .future-projects i {
+        font-size: 0.7rem;
+    }
+
+    .future-projects span,
+    .future-projects p {
+        font-size: 0.7rem;
+    }
+
     .side-image img {
         bottom: 335px;
         height: 70%;
@@ -194,6 +205,29 @@
     .work-showcase .projects {
         width: 100%;
     }
+
+    .projects .first-image {
+        border: 2px inset white;
+    }
+
+    .projects:hover .project,
+    .project-1, .project-2 {
+        display: none;
+    }
+
+
+    .future-projects span,
+    .future-projects p {
+        font-size: 0.5rem;
+    }
+
+    .project .future-projects span,
+    .project-1 .future-projects span,
+    .project-2 .future-projects span {
+        text-align: center;
+
+    }
+
 
     .work-section {
         margin-bottom: 0;
@@ -356,6 +390,10 @@
     .work-showcase .projects {
         width: 100%;
     }
+
+    .project-1 .future-projects i,
+    .project .future-projects i,
+    .project-2 .future-projects i {}
 
     .work-showcase .projects span {
         font-size: 15px;
