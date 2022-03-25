@@ -1,0 +1,116 @@
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+
+ body {
+     background-color: rgb(240, 248, 255);
+     width: 90%;
+     margin: 0 auto;
+ }
+
+ .main-container {
+     width: 90%;
+     margin: 50px auto;
+     display: flex;
+     padding: 20px;
+     border-left: 2px solid rgba(0, 0, 0, 0.164);
+     border-bottom: 2px solid rgba(0, 0, 0, 0.164);
+     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.555);
+     height: 500px;
+
+ }
+
+ .create-info,
+ .rules-info {
+     width: 50%;
+ }
+
+ .the-creator p {
+     position: absolute;
+     top: 42px;
+     left: 190px;
+     font-weight: 800;
+     background-color: brown;
+     font-size: 1rem;
+     border-radius: 5px;
+     color: white;
+     padding: 10px;
+     white-space: nowrap;
+     display: none;
+     width: 300px;
+ }
+
+ .main-button, .main-button-1 {
+     margin-top: 15px;
+     outline: none;
+     padding: 10px 30px;
+     background-color: rgba(0, 0, 0, 0.712);
+     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.61);
+     color: #fff;
+     border-radius: 10px;
+     font-size: 2rem;
+     border: 0;
+ }
+
+ .main-button,
+ .main-button-1:hover {
+     cursor: pointer;
+ }
+
+ .the-creator {
+     margin-left: 5px;
+     width: 500px;
+     text-align: center;
+ }
+
+
+ .show-rules {
+     margin-top: 15px;
+     padding: 30px;
+     background-color: rgba(110, 107, 107, 0.171);
+     color: rgb(245, 244, 244);
+     display: none;
+     border-radius: 20px;
+     color: black;
+     font-size: 1.5rem;
+ }
+
+
+ /* .random-button {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ } */
+
+ #random-button-1 {
+     font-size: 3rem;
+     margin-top: 15px;
+     padding: 30px 50px;
+     background-color: rgba(0, 0, 0, 0.712);
+     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.61);
+     color: white;
+     border-radius: 10px;
+     border: none;
+ }
+
+ #random-button-1:hover {
+     cursor: pointer;
+ }
+
+ #results {
+     width: 50%;
+     font-size: 50px;
+     color: #fff;
+     background-color: rgba(173, 4, 4, 0.8);
+     box-shadow: -5px 5px 5px black;
+     border-radius: 10px;
+     margin: 10px auto;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+
+ }
