@@ -5,10 +5,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- JQuery Section -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/mainqueries.js"></script>
   <!-- CSS Main Styles -->
   <link rel="stylesheet" href="./css/mainstyle.css">
   <link rel="stylesheet" href="./css/game-core.css">
@@ -42,14 +38,25 @@
       </div>
     </div>
     <div class="random-button">
-      <button id="random-button-1" onclick="generate()">PLAY</button>
+      <button id="random-button-1">PLAY</button>
+      <p id="winningNumbers"></p>
       <div id="results"></div>
+      <div class="Try">
+        <p class="reseter" id="tryAgain" onclick="reloadPage()">Try Again!</p>
+      </div>
+    </div>
+
+    <div class="lives ">
+      <p id="showLives"></p>
     </div>
 
   </div>
 
 
-
+  <!-- JQuery Section -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/mainqueries.js"></script>
 </body>
 
 </html>

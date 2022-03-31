@@ -16,9 +16,8 @@
      margin: 50px auto;
      display: flex;
      padding: 20px;
-     border-left: 2px solid rgba(0, 0, 0, 0.164);
-     border-bottom: 2px solid rgba(0, 0, 0, 0.164);
-     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.555);
+     border: 2px solid rgba(0, 0, 0, 0.094);
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.758);
      height: 500px;
 
  }
@@ -43,7 +42,7 @@
      width: 300px;
  }
 
- .main-button, .main-button-1 {
+ .main-button, .main-button-1, .main-button-2 {
      margin-top: 15px;
      outline: none;
      padding: 10px 30px;
@@ -53,6 +52,31 @@
      border-radius: 10px;
      font-size: 2rem;
      border: 0;
+ }
+ 
+ .Try {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .reseter {
+     margin-top: 30px;
+     padding: 15px;
+     color: #fff;
+     text-align: center;
+     cursor: pointer;
+     border-radius: 10px;
+     font-size: 1.5rem;
+     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.61);
+     background-color: rgba(0, 0, 0, 0.712);
+ }
+
+ .reseter:hover {
+     background-color: transparent;
+     cursor: pointer;
+     color: black;
+     border: 1px solid rgba(0, 0, 0, 0.712);
  }
 
  .main-button,
@@ -79,12 +103,10 @@
  }
 
 
- /* .random-button {
-     display: flex;
-     flex-direction: column;
+ .random-button {
      justify-content: center;
      align-items: center;
- } */
+ }
 
  #random-button-1 {
      font-size: 3rem;
@@ -113,4 +135,32 @@
      text-align: center;
      align-items: center;
 
+ }
+
+ .lives {
+     margin: 30px;
+ }
+
+ #showLives {
+     padding: 15px;
+     font-weight: bold;
+     border-radius: 25px;
+     margin-left: 10px;
+     font-size: 1.5rem;
+ }
+
+ #winningNumbers {
+     text-align: center;
+     font-size: 2rem;
+     color: red;
+     margin-top: 20px;
+ }
+
+ #winningNumbers::first-line {
+     font-weight: bold;
+     color: green;
+ }
+
+ #winningNumbers span {
+     color: green;
  }
