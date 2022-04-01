@@ -29,7 +29,6 @@ function generateNumber() {
         winner.innerHTML = `Congratulation!<br/>You won with ${randomNumber}`;
         btnClick.disabled = true;
         btnClick.style.opacity = 0.5;
-        results.style.display = 'none';
         // document.getElementById('tryAgain').innerHTML = tryAgain;
     }
 }
