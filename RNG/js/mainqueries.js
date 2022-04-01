@@ -14,3 +14,22 @@ $(document).ready(function () {
         $('.show-rules em').css('color', 'green');
     })
 });
+
+
+
+// function responsive(maxWidth) {
+//     if (maxWidth.matches) {
+//         $('.main-button').click(function() {
+//             $('.creator').slideDown(1000);
+//         })  
+//     } else {
+//         $('.main-button').click(function() {
+//         $('.creator').slideUp(1000);
+//         })
+//     }
+// };
+
+// let maxWidth = window.matchMedia("(max-width: 500px)");
+// // responsive(maxWidth);
+// maxwidth.addListener(responsive);
+

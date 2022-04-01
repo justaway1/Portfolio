@@ -1,0 +1,56 @@
+/* For Mobile */
+
+    @media only screen and (max-width: 500px) {
+    html, body {
+        overflow: auto;
+    }
+
+    .create-info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .the-creator p {
+        width: 100%;
+        position: absolute;
+        top: 105px;
+        left: 0;
+        font-size: 1rem;
+    }
+
+    #showLives {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+
+
+    .rules-info {
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rules-info .show-rules {
+        font-size: 1rem;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .main-container,
+    .create-info {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

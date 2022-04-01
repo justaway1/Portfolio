@@ -17,7 +17,7 @@ btnClick.addEventListener('click', generateLives);
 // }
 
 function reloadPage() {
-    window.location.reload();
+    document.location.reload(false);
 }
 
 // Function for the random Number
