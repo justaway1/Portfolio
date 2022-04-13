@@ -1,0 +1,27 @@
+#firstSum,
+#secondSum,
+#thirdSum,
+#fourthSum,
+#fifthSum,
+#sixSum,
+#sevenSum
+{
+    background-color: rgb(201, 130, 8);
+    border-radius: 10px;
+}
+
+.question-title h1 {
+    font-size: 1.2rem;
+}
+
+
+#answer-a,
+#answer-b,
+#answer-d,
+#answer-c {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}

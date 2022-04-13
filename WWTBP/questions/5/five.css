@@ -1,0 +1,39 @@
+#firstSum,
+#secondSum,
+#thirdSum,
+#fourthSum
+{
+    background-color: rgb(201, 130, 8);
+    border-radius: 10px;
+}
+
+#answer-a,
+#answer-b,
+#answer-c {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#answer-d {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 0.95rem;
+}
+
+#firstSecureSum {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    font-size: 1.5rem;
+    color: var(--textColor);
+    margin: auto;
+    width: 50%;
+}

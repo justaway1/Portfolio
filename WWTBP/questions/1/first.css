@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --backgroundColor: rgba(79, 83, 87, 0.988);
+    --textColor: rgb(205, 77, 26);
+    --sidecolor: rgb(201, 130, 8);
+}
+
+img {
+    width: 100%;
+}
+
+
+p,
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+::selection {
+    background: transparent;
+}
+
+/* Question Container */
+
+
+.main-container {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.question-section {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--backgroundColor);
+    padding: 30px;
+    border-radius: 50px;
+    width: 75%;
+    height: 450px;
+    margin-left: 20px;
+
+}
+
+.questions p {
+    margin-top: 5px;
+
+}
+
+.answers {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.answers .choice-a,
+.answers .choice-b,
+.answers .choice-c,
+.answers .choice-d {
+    color: var(--textColor);
+    margin-right: 10px;
+}
+
+.answers p {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #fff;
+    width: 100%;
+    margin-left: 5px;
+    margin-bottom: 6px;
+    padding: 5px 50px 5px 5px;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+
+.question-title {
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.277);
+}
+
+.question-title h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+.showMoney {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#showingMoney {
+    color: green;
+    font-size: 5rem;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-top: 25px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.901);
+}
+
+
+#sidemoney {
+    background-color: rgb(201, 130, 8);
+    border-radius: 10px;
+}
+
+#tryAgainButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

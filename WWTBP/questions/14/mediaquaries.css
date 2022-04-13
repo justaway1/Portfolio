@@ -1,0 +1,96 @@
+@media only screen and (max-width: 500px) {
+    html, body {
+        overflow: auto;
+    }
+
+    .title-container {
+       width: 90%;
+       margin: 10px auto;
+    }
+
+    .title-container h1 {
+        font-size: 0.8rem;
+    }
+
+    .title-container .programmer {
+        font-size: 2.2rem;
+    }
+
+    .the-creator {
+        font-size: 0.8rem;
+    }
+
+    .information-center {
+        width: 90%;
+        padding: 5px;
+        margin: 10px auto;
+    }
+
+    .separator {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .rules-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: 90%;
+        margin: 0 auto;
+    }
+
+    .question-section {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .questions {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pointer i {
+        display: none;
+    }
+    .pointer {
+        margin: 0 auto;
+    }
+
+    .pointsQuestions {
+        margin: 10px auto;
+    }
+    
+    .main-button {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer {
+        font-size: 1rem;
+    }
+
+    .question {
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .question-title h1{
+        font-size: 1rem;
+    }
+
+    .answers {
+        flex-direction: column;
+    }
+
+    .answers p {
+        font-size: 1.5rem;
+        align-items: center;
+        padding: 5px;
+    }
+
+    #showingMoney {
+        font-size: 1.5rem;
+    }
+}

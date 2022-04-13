@@ -1,0 +1,42 @@
+#firstSum,
+#secondSum,
+#thirdSum,
+#fourthSum,
+#fifthSum,
+#sixSum,
+#sevenSum,
+#eightSum,
+#nineSum
+{
+    background-color: rgb(201, 130, 8);
+    border-radius: 10px;
+}
+
+.question-title h1 {
+    font-size: 1.2rem;
+}
+
+
+#answer-a,
+#answer-b,
+#answer-d,
+#answer-c {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#firstSecureSum {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    font-size: 1.5rem;
+    color: var(--textColor);
+    margin: auto;
+    width: 50%;
+}
