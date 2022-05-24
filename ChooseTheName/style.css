@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: rgb(134, 94, 94);
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.33);
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    font-size: 1.2rem;
+}
+
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 90%;
+    margin: 10px auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 252, 252);
+    border-radius: 25px;
+    word-spacing: 20px;
+    font-size: 1.5rem;
+    color: rgb(19, 19, 18);
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px black;
+}
+
+header span {
+    color: rgb(157, 11, 11);
+}
+
+#main-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 50%;
+    margin: 10px auto;
+    background-color: rgb(252, 252, 252);
+    border-radius: 10px;
+    font-size: 1.2rem;
+    box-shadow: 0 2px 5px black;
+
+}
+
+#name-section input[type="text"] {
+    margin-top: 20px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 100px 10px 10px;
+}
+
+#search-name {
+    color: rgb(157, 11, 11);
+    margin-top: 20px;
+    margin-left: 15px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+}
+
+#search-name:hover {
+    cursor: pointer;
+    background-color: rgba(46, 43, 43, 0.43);
+    color: #fff;
+}
+
+#show-names {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 25px;
+    font-size: 2rem;
+    color: rgb(157, 11, 11);
+
+}
+
+#showNames {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+    font-size: 3rem;
+    border-radius: 5px;
+    text-decoration: underline;
+    color: rgb(157, 11, 11);
+}
