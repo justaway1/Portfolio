@@ -1,7 +1,7 @@
 **This is my personal website,
 with all my projects!**
 
-You can see it [here](https://justaway1.github.io/theportfolio/)
+**Live preview [here](https://justaway1.github.io/theportfolio/)**
 
 
 **Tech used:**
