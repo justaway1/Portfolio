@@ -4,7 +4,7 @@ import { namesA } from "./names.js"
 import { namesB } from "./names.js"
 import { namesC } from "./names.js"
 import { namesD } from "./names.js"
-let namesE = ['Eleonora'];
+import { namesE } from "./names.js"
 // let alphabets = ['A', 'B', 'C', 'D', 'E', 'F'];
 const button = document.getElementById('search-name');
 const mainText = document.getElementById('show-names');
@@ -18,12 +18,14 @@ function checkCondition() {
         alert('Please use only 1 letter!');
         inputNames.value = '';
         mainText.innerHTML = '';
+        mainText.removeAttribute('id', 'showNames');
         return;
     }
     if (inputNames.value === '') {
         mainText.innerHTML = 'We need 1 letter!'
         setTimeout(function () {
             mainText.innerHTML = '';
+            // mainText.removeAttribute("id", "showNames");
         }, 1500)
         return;
     }
