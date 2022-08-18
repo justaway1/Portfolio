@@ -1,92 +1,9 @@
 
-
-//THE GLOBAL VARIABLES
-
-let namesA = ["Ava", "Amelia",
-    'Abigail', 'Avery',
-    'Aria', 'Aubrey',
-    'Addison', 'Audrey',
-    'Aurora', 'Anna',
-    'Aaliyah', 'Allison',
-    'Adeline', 'Alexa',
-    'Autumn', 'Aubree',
-    'Arianna', 'Adalynn',
-    'Annabelle', 'Alexandra',
-    'Ashley', 'Athena',
-    'Andrea', 'Alyssa',
-    'Adalyn', 'Arya',
-    'Ariel', 'Alexis',
-    'Aliyah', 'Arabella',
-    'Anastasia', 'Amy',
-    'Amaya', 'Adaline',
-    'Alaina', 'Alina',
-    'Angelina', 'Adelyn',
-    'Amara', 'Ana',
-    'Alana', 'Adriana',
-    'Alayna', 'Ayla',
-    'Angela', 'Alivia',
-    'Alexandria', 'Amiyah',
-    'Amina', 'Adelaide',
-    'Aniyah', 'Ariella',
-    'Annie', 'Adelynn',
-    'Alessandra', 'Amira',
-    'Arielle', 'Ada',
-    'Ariah', 'Aspen',
-    'Allie', 'Amanda',
-    'Angel', 'Ainsley',
-    'Alicia', 'Alondra',
-    'Adrianna', 'Addilyn',
-    'Alison', 'Annalise',
-    'Averie', 'Amber',
-    'Alexia', 'Anaya',
-    'Amari', 'Ariyah',
-    'Aylin', 'Alani',
-    'Abby', 'April',
-    'Aviana', 'Annabella',
-    'Ashlyn', 'Avianna',
-    'Allyson', 'Alejandra',
-    'Adelina', 'Ashlynn',
-    'Aleah', 'Alayah',
-    'Angelica', 'Alanna',
-    'Addyson', 'Aleena',
-    'Aisha', 'Aubrie',
-    'Anne', 'Azalea'];
-
-let namesB = [
-    'Benjamin', 'Brayden',
-    'Bryson', 'Bennett',
-    'Brooks', 'Braxton',
-    'Bentley', 'Beau',
-    'Brandon', 'Brody',
-    'Blake', 'Bryce',
-    'Bella', 'Brooklyn',
-    'Brielle', 'Brianna',
-    'Bailey', 'Blakely',
-    'Brynlee', 'Brooke',
-    'Blake', 'Brooklynn'];
-let namesC = [
-    'Charlotte', 'Camila',
-    'Chloe', 'Claire',
-    'Caroline', 'Cora',
-    'Clara', 'Charlie',
-    'Cecilia', 'Callie',
-    'Catalina', 'Catherine',
-    'Carter', 'Christopher',
-    'Charles', 'Caleb',
-    'Christian', 'Colton',
-    'Cameron', 'Connor',
-    'Cooper', 'Carson',
-    'Chase', 'Cole'];
-let namesD = [
-    'Daniel', 'David',
-    'Dylan', 'Dominic',
-    'Declan', 'Damian',
-    'Diego', 'Dean',
-    'Dawson', 'Daxton',
-    'Delilah', 'Daisy',
-    'Diana', 'Daniela',
-    'Dakota', 'Delaney',
-    'Destiny', 'Daleyza']
+//Imports
+import { namesA } from "./names.js"
+import { namesB } from "./names.js"
+import { namesC } from "./names.js"
+import { namesD } from "./names.js"
 let namesE = ['Eleonora'];
 // let alphabets = ['A', 'B', 'C', 'D', 'E', 'F'];
 const button = document.getElementById('search-name');
