@@ -8,6 +8,7 @@ import { namesE } from "./names.js"
 import { namesF } from "./names.js"
 import { namesG } from "./names.js"
 import { namesH } from "./names.js"
+import { namesI } from "./names.js"
 
 
 const button = document.getElementById('search-name');
@@ -64,6 +65,10 @@ function generateNames() {
     if (inputNames.value === "H" || inputNames.value === "h") {
         mainText.setAttribute('id', 'showNames');
         mainText.innerHTML = namesH[Math.floor(Math.random() * namesH.length)]
+    }
+    if (inputNames.value === "I" || inputNames.value === "i") {
+        mainText.setAttribute('id', 'showNames');
+        mainText.innerHTML = namesI[Math.floor(Math.random() * namesI.length)]
     }
     checkCondition();
 }
