@@ -14,6 +14,7 @@ import { namesK } from "./names.js"
 import { namesL } from "./names.js"
 import { namesM } from "./names.js"
 import { namesN } from "./names.js"
+import { namesO } from "./names.js"
 
 
 const button = document.getElementById('search-name');
@@ -94,6 +95,10 @@ function generateNames() {
     if (inputNames.value === "N" || inputNames.value === "n") {
         mainText.setAttribute('id', 'showNames');
         mainText.innerHTML = namesN[Math.floor(Math.random() * namesN.length)]
+    }
+    if (inputNames.value === "O" || inputNames.value === "o") {
+        mainText.setAttribute('id', 'showNames');
+        mainText.innerHTML = namesO[Math.floor(Math.random() * namesO.length)]
     }
     checkCondition();
 }
