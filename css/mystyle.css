@@ -342,7 +342,7 @@ display: flex;
 margin: 50px 50px;
 padding: 50px 50px;
 gap: 30px;
-justify-content: space-evenly;
+justify-content: center;
 }
 
 .projects {
