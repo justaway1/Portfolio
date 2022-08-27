@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://use.fontawesome.com/21c0a17d04.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto+Condensed&family=Silkscreen:wght@700&display=swap"
+        rel="stylesheet">
+    <title>RockPaperScissor</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <header class="main--header">
+            <h1 class="title--header">Rock Paper Scissor</h1>
+        </header>
+
+        <div class="main--content">
+            <div class="main--result">
+                <h2 class="result" id="result-win">Choose your weapon!</h2>
+                <p class="result-bored" id="result-withWhat">Play, until you are bored!</p>
+            </div>
+            <div class="result--images">
+                <p id="human-weapon"><span class="questionMark">?</span></p>
+                <p id="cpu-weapon"><span class="questionMark">?</span></p>
+            </div>
+            <div class="result--score">
+                <p class="result-human" id="human-score">Human Score: 0</p>
+                <p class="result-computer" id="cpu-score">Computer Score: 0</p>
+            </div>
+            <div class="main--logic">
+                <img src="./images/rock.png" class="result--image--logic" id="rock">
+                <img src="./images/paper.png" class="result--image--logic--paper" id="paper">
+                <img src="./images/scissor.png" class="result--image--logic" id="scissor">
+            </div>
+            <footer class="main--footer">
+                <p class="footer">Copyright &copy; 2022 Stan Angelov</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="mainscript.js"></script>
+</body>
+
+</html>
