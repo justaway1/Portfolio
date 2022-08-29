@@ -51,7 +51,6 @@ function handleRock(e, cpuChoice) {
         computerScore++;
         cpuScore.innerHTML = `Computer Score: ${computerScore}`;
 
-
     } if (cpuChoice === 3) {
         cpuWeapon.innerHTML = "<img src='./images/scissor.png'>"
         cpuWeapon.classList.add('selectedImage');
@@ -61,8 +60,6 @@ function handleRock(e, cpuChoice) {
         humanScore.innerHTML = `Human Score: ${playerScore}`;
 
     }
-
-
 }
 
 //PAPER EVENT HANDLER
@@ -128,7 +125,6 @@ function handleScissor(e, cpuChoice) {
         result.innerHTML = `It's a Tie!`
         resultWithWhat.innerHTML = `Scissors with Scissors!`
     }
-
 }
 
 
