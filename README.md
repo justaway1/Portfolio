@@ -9,7 +9,7 @@ with all my projects!**
  - CSS3
  - JS
 
-<h1>Navbar</h1>
+<h1>Navbar Section</h1>
 
 This is the navbar, I am glad I found a matching **fontAwesome icon** with the **name!**
 
