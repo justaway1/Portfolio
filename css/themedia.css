@@ -61,6 +61,13 @@
     .work-showcase {
         margin-top: 0;
         padding-top: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .first-image {
+        width: 50px;
     }
 
     .work-section {
@@ -198,8 +205,16 @@
 
 
     .work-showcase {
-        margin-top: 10px;
+        margin: 0 auto;
         padding: 0;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+
+    }
+
+    .projects {
+        width: 500px;
     }
 
     .work-showcase .projects {
@@ -271,7 +286,7 @@
 
 /* LARGE PHONES */
 
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 500px) {
 
     .logo-name i {
         font-size: 40px;
@@ -387,14 +402,11 @@
         padding-bottom: 60px;
     }
 
-    .work-showcase .projects {
-        width: 100%;
-    }
-
     .work-showcase {
-        margin-left: 30px;
-        margin-right: 30px;
-        margin-bottom: 150px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
     }
 
 
@@ -505,6 +517,12 @@
 
     .work-section {
         overflow: hidden;
+    }
+
+    .work-showcase {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .contact-form .little-info {
@@ -686,10 +704,17 @@
 
     .work-showcase {
         margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .work-section {
         padding-bottom: 10px;
+    }
+
+    .projects {
+        width: 10px;
     }
 
     .about-me .big-text-one {
