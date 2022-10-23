@@ -43,5 +43,5 @@ Currently it is an empty #shell.
 
 ![Contarct](https://user-images.githubusercontent.com/44018646/184689966-909b465a-bc7c-4b03-8440-a81d6acee07f.jpg)
 
-/Happy Coding/.....
+/Happy Coding/.
 
