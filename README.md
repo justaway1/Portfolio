@@ -16,7 +16,7 @@ This is the navbar, I am glad I found a matching **fontAwesome icon** with the *
 ![header](https://user-images.githubusercontent.com/44018646/184687249-19bb828d-50ec-4ad7-b1c6-d951a393233b.jpg)
 
 ___________________________________________________________________________________________________________________________
-<h1>Hero Section</h1>
+<h1>Hero Section</h1>...
 
 I am really proud of how the Hero come up to be. It may be **simple** and **easy** to some,
 but personally for me that was my first real project!
