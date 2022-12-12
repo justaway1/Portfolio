@@ -5,9 +5,9 @@ with all my projects!**
 
 
 **Tech used:**
- - HTML5
- - CSS3
- - JS
+ - HTML5...
+ - CSS3...
+ - JS...
 
 <h1>Navbar Section</h1>
 
