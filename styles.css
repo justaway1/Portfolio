@@ -22,6 +22,7 @@
   img {
     width: 100%;
     object-fit: cover;
+    aspect-ratio: 16 / 9;
     height: 100%;
   }
   
@@ -199,12 +200,21 @@
     font-size: 2rem;  
   }
   
+  
   .social a {
-    padding: 20px;
+    padding: 30px;
+    font-size: 2.5rem;
+    position: relative;
+    
   }
   
   .social i {
     margin-right: 6px;
+  }
+
+  .social a:hover {
+    transition: bottom 3s ease-in-out linear;
+    bottom: -20px;
   }
   
   .main-footer {
@@ -216,9 +226,12 @@
     font-size: 1.5rem;
     padding: 15px;
   }
+
+
   
+/* MEDIA QUARIES */
   
-  @media only screen and (max-width: 1100px) {
+  @media only screen and (max-width: 1200px) {
     #projects {
       grid-template-columns: 1fr 1fr;
     }
@@ -234,11 +247,15 @@
     
   }
   
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 850px) {
     #projects {
       grid-template-columns: 1fr;
     }
     .social {
-      margin: 0 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      height: 50px;
+      flex-wrap: wrap;
     }
   }
