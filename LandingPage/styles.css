@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  img {
+    max-width: 100%;
+    width: 200px;
+    object-fit: cover;
+  }
+  
+  html {
+    font-size: 62.5%;
+    font-family: 'Verdana', sans-serif;
+  }
+    
+  body {
+      background-color: rgba(255, 255, 255, 0.305);
+    }
+    
+    a {
+      text-decoration: none;
+    }
+  
+    li {
+      list-style-type: none;
+      
+    }
+  
+    #nav-bar {
+      display: flex;
+      margin-left: auto;
+      align-items: center;
+    }
+  
+    #nav-bar ul {
+      display: flex;
+      
+    }
+  #nav-bar ul li {
+    margin: 0 30px 0 20px;
+    font-size: 1.5rem;
+    padding-left: 30px;
+  }
+  
+  #nav-bar ul li a {
+    color: rgba(0, 0, 0, 0.825);
+  }
+  
+  #header {
+    display: flex;
+    padding: 20px 30px 10px 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border: 0;
+    background-color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    width: 60vw;
+    margin: 70px auto 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+    .form-content {
+      display: flex;
+      justify-content: center;
+      margin: 30px;
+      align-items: center;
+    }
+  
+    .form-title {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+  
+    input[type='email'] {
+      display: block;
+      margin: 0 auto 20px auto;
+      padding: 6px 120px 6px 3px
+    }
+  
+  #form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+    .form-content #submit {
+        border: 0;
+        background-color: rgba(229, 222, 20, 0.969);
+        padding: 5px 5px 5px 20px;
+        font-size: 1.9rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+  
+  .main-info {
+    display: grid;
+    grid-template-columns: 100px 2fr;
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 60px;
+    row-gap: 5rem;
+    column-gap: 6rem;
+  }
+  
+  .info {
+    grid-template: 2 / -1;
+  }
+  
+  .info-title {
+    font-size: 2.2rem;
+    color: rgba(0, 0, 0, 0.846);
+    font-weight: semi-bold;
+    margin-bottom: 2px;
+  }
+  
+  .info p {
+    font-size: 1.4rem;
+  }
+  
+  .main-info i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.6rem;
+    padding: 5px;
+    color: rgba(230, 159, 16, 0.942);
+  }
+  
+  
+  .video {
+    margin-top: 50px;
+  }
+  
+  
+  .pricing {
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    width: 100%;
+  }
+  
+  .pricing-info {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  
+  .pricing-title {
+    font-size: 1.5rem;
+    padding: 15px 0;
+    color: rgba(0, 0, 0, 0.853);
+    margin-bottom: 15px;
+    background-color: rgba(128, 128, 128, 0.254);
+  }
+  
+  .price {
+    font-size: 2rem;
+    margin-bottom: 25px;
+  }
+  
+  .description {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  #pricing-btn {
+    padding: 10px;
+    font-size: 1.5rem;
+    background-color: rgb(218, 241, 6);
+    width: 100%;
+    border: none;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .main-footer {
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px 20px;
+    text-align: right;
+    background-color: rgba(128, 128, 128, 0.254);;
+  }
+  
+  .main-footer a {
+    font-size: 1.5rem;
+    color: black;
+    padding: 2px;
+    margin: 0 5px 0 5px;
+  }
+  
+  .main-footer p {
+    margin-top: 5px;
+    font-size: 1.2rem;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .pricing-title {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .pricing {
+      grid-template-columns: 1fr;
+      row-gap: 2rem;
+      justify-content: center;
+      
+    }
+  
+    #header {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  
+    .pricing-title {
+      font-size: 1rem;
+    }
+    
+  
+    #nav-bar {
+      margin-top: 20px;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+  
+    #nav-bar ul {
+      display: flex;
+      flex-direction: column;
+    }
+    #nav-bar ul li {
+      margin-top: 15px;
+      text-align: center;
+    }
+  
+    #header img {
+      margin: auto;
+    }
+  }

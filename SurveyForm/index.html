@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lan='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='styles.css'>
+    <title>Survey Form</title>
+  </head>
+  <body>
+<header>
+    <h1 id='title'> Survey Form</h1>
+    <p id='description'>Thank you for taking the time to help us improve the platform</p>
+</header>
+<form id='survey-form'>
+    <label id='name-label' for='name'>Name <input type='text' id='name' name='name' placeholder='Enter your name' required></label>
+    <label id='email-label' for='email'>Email <input type='email' id='email' name='email' placeholder='Enter your Email' required></label>
+    <label id='number-label' for='number'>Age (optional) <input type='number' id='number' name='age' placeholder='Age' required min='13' max='120'></label>
+
+    <label for='dropdown'>Which option best describes your current role?</label>
+    <select id='dropdown'>
+      <option value=''>Select current role</option>
+      <option value='1'>Student</option>
+      <option value='2'>Full time job</option>
+      <option value='3'>Full time learner</option>
+      <option value='4'>Prefer not to say</option>
+      <option value='5'>Other</option>
+    </select>
+    <label>Would you recommend this survey to a friend?</label>
+      <label><input type='radio' value='definitely' name='grouped-choice'> Definitely</label>
+      <label><input type='radio' value='maybe' name='grouped-choice'> Maybe</label>
+      <label class='last-item'><input type='radio' value='not-sure' name='grouped-choice'> Not sure</label>
+      <label>What would like to see improved (Check all that apply)</label>
+      <label for='frontend'><input id='frontend' type='checkbox' value='frontend' name='frontend'>Front-end Projects</label>
+      <label for='frontend'><input id='backend' type='checkbox' value='backend' name='backend'>Back-end projects</label>
+      <label for='Data Visualization'><input id='Data Visualization' type='checkbox' value='Data Visualization' name='Data Visualization'>Data Visualization</label>
+      <label class='last-item' for='Challenges'><input id='Challenges' type='checkbox' value='Challenges' name='Challenges'>Challenges</label>
+      <label for='comments'>Any comments or suggestions?</label>
+      <textarea id='comments' name='comments' placeholder='Enter your comment here...' rows='4' cols='40' required></textarea>
+    <input id='submit' type='submit' value='Submit' name='submit'>
+    </form>
+</body>
+</html>
