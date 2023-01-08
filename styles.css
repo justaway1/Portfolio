@@ -34,10 +34,18 @@
     text-decoration: none;
   }
   
+
+
   a:visited {
     color: #fff;
   }
+  a:active {
+    color: #fff;
+  }
   
+  a {
+    color: #fff;
+  }
   #navbar {
     position: fixed;
     top: 0;
