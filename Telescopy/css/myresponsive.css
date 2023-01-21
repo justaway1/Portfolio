@@ -1,0 +1,98 @@
+
+
+@media only screen and (max-width: 1050px) {
+
+   /* .custom-sales-row:last-of-type {
+      margin-top: 20px;
+   } */
+   .top-sales-header {
+      display: flex;
+      margin: 0 auto;
+   }
+
+   /* .new-arrivales {
+      margin-top: 200px;
+   }
+
+    */
+   .arrivales:nth-child(3) {
+      margin-top: 20px;
+   }
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+   .custom-ul {
+    align-items: center;
+    justify-content: center;
+   } 
+
+   .custom-ul li {
+    margin-bottom: 19px;
+   }
+
+   .custom-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .custom-indicators {
+      display: Flex;
+      margin: 100px auto;
+   }
+
+   .custom-carousel-title {
+      font-size: 2rem;
+   }
+   .custom-description {
+      font-size: 1.2rem;
+      width: 100%;
+   }
+
+   .info-shop {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+  .custom-sales-row {
+   margin-bottom: 20px;
+  }
+
+   .myCustomIndicators {
+      margin-top: 70px;
+   }
+      .custom-card-testimonial {
+         width: 100%;
+      }
+
+      .custom-card {
+         padding: 0 20px;
+      }
+
+      .customer-id,
+      .customer {
+         text-align: center;
+      }
+
+      .custom-avatar {
+         margin-bottom: 5px;
+      }
+
+      .pictures-grid {
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         gap: 4px;
+         place-items: center;
+      }
+}
