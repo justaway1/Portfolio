@@ -1,0 +1,631 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+
+:root {
+    --main-color: rgba(235, 227, 227, 0.844);
+    --fade-color: rgba(235, 227, 227, 0.574);
+    --bg-color: rgba(0, 0, 0, 0.821);
+    --secondary-bg-color: rgba(75, 74, 74, 0.414);
+    --spotify-color: #1DB954;
+}
+
+.bg-dark {
+    background-color: var(--bg-color);
+}
+
+
+
+.custom_tabable {
+    position: absolute;
+    z-index: 1;
+    top: 300px;
+    font-size: 1.3rem;
+    background-color: rgba(17, 16, 16, 0.508);
+}
+
+
+.custom_tab_content {
+    position: absolute;
+    z-index: 1;
+    top: 360px;
+    background-color: rgb(12, 12, 12);
+}
+
+.custom_nav_link {
+    font-size: 1.4rem;
+    background-color: transparent;
+    letter-spacing: 0.1rem;
+    margin-left: 20px;
+    border: none;
+    color: var(--main-color);
+    font-weight: 500;
+    padding: 20px 0 15px 0;
+}
+
+/* .custom_link {
+    padding: 10px 0;
+} */
+
+.right {
+    margin-left: 30px;
+}
+
+
+.custom_nav_link:hover {
+    color: white;
+}
+
+.custom_nav_link.active {
+    border-bottom: 5px solid var(--spotify-color);
+}
+
+.custom_main_content {
+    padding: 20px;
+}
+
+.main_content_container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1.6rem 1fr 1.6rem 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    -webkit-column-gap: 1.6rem;
+    -moz-column-gap: 1.6rem;
+    column-gap: 1.6rem;
+}
+
+.main_content_container h3 {
+    font-size: 1.3rem;
+    letter-spacing: 0.15rem;
+    color: var(--main-color);
+    margin-bottom: 11px;
+}
+
+/* LATEST RELEASES */
+
+.latest_releases {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / span 2;
+}
+
+.latest_release_img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: var(--secondary-bg-color);
+}
+
+.track {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 13px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.track p {
+    font-size: 1.4rem;
+    margin: 0;
+    color: white;
+}
+
+.track p:last-child {
+    color: var(--main-color);
+    font-family: 'Courier New', Courier, monospace;
+    word-spacing: -0.3rem;
+}
+
+.latest_image_release {
+    width: 80px;
+    height: 80px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+/* POPULAR */
+
+.custom_popular {
+    margin-top: 40px;
+}
+
+.custom_track {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #fff;
+    border-top: 1px solid var(--secondary-bg-color);
+    border-bottom: 1px solid var(--secondary-bg-color);
+}
+
+.custom_track:hover {
+    background-color: var(--secondary-bg-color);
+}
+
+.custom_track * {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.custom_track p:first-of-type {
+    margin-left: 10px;
+    color: var(--main-color);
+    margin-right: 30px;
+}
+
+.custom_track i {
+    margin-right: 30px;
+    color: var(--main-color);
+}
+
+.custom_track p:nth-last-of-type(2) {
+    margin-right: auto;
+    width: 50%;
+    font-weight: 500;
+    color: #fff;
+}
+
+.custom_track p:last-of-type {
+    margin-left: auto;
+    text-align: right;
+    width: 30%;
+    padding-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--main-color);
+}
+
+.custom_track span {
+    font-size: 1rem;
+    margin: auto;
+    border: 1px solid rgba(75, 74, 74, 0.744);
+    border-radius: 3px;
+    color: rgba(75, 74, 74, 0.744);
+    padding: 2px 4px;
+
+}
+
+.track_image {
+    width: 40px;
+    height: 40px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.custom_show_more {
+    padding: 2px 13px;
+    background-color: transparent;
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+    margin-top: 15px;
+    font-size: 1.4rem;
+    border-radius: 50px;
+    word-spacing: -0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.custom_show_more:hover {
+    color: white;
+    border-color: #fff;
+}
+
+/* RELATED ARTISTS */
+
+.related_artists {
+    -ms-grid-column: 3;
+    grid-column: 3;
+    -ms-grid-row: 1;
+    grid-row: 1;
+}
+
+.related_artists_item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: var(--secondary-bg-color);
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+.related_artists_item:hover {
+    background-color: rgba(235, 227, 227, 0.193);
+    cursor: pointer;
+}
+
+.related_artists_item p {
+    color: white;
+    font-size: 1.35rem;
+    font-weight: 500;
+    margin-left: 18px;
+    margin-bottom: 0;
+}
+
+.related_artist_item_img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+
+/* FIND FRIENDS */
+
+.find_friends_column {
+    margin-left: -5px;
+    color: var(--main-color);
+    background-color: rgb(12, 12, 12);
+}
+
+.friend {
+    font-size: 1.4rem;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.friend:hover {
+    text-decoration: underline;
+    color: #fff;
+    cursor: pointer;
+}
+
+.friend i:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.friend i {
+    margin-right: 10px;
+}
+
+.friend_button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+/* ALBUMS */
+
+.custom_albums {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1 / span 3;
+    margin-top: 40px;
+    height: auto;
+}
+
+
+.album_song {
+    width: 140px;
+    height: 140px;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.when_its_dark {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 10px;
+    border-top: 1px solid var(--secondary-bg-color);
+}
+
+.song_info {
+    margin-left: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.song_info p {
+    color: var(--main-color);
+    font-size: 1.6rem;
+    margin: 0;
+
+}
+
+.song_info h1 {
+    color: var(--main-color);
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: auto;
+}
+
+.album_button {
+    margin-right: 10px;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.save {
+    padding: 3px 20px;
+    font-size: 1.2rem;
+    vertical-align: center;
+}
+
+.save:hover {
+    border-color: var(--spotify-color);
+}
+
+.list_icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.album_icons {
+    font-size: 1.5rem;
+    color: var(--main-color);
+}
+
+
+
+.album_icons i {
+    padding: 8px;
+}
+
+.album_icons i:first-of-type {
+    background-color: var(--secondary-bg-color);
+    border-radius: 50px;
+}
+
+.album_icons i:first-of-type:hover {
+    background-color: rgba(75, 74, 74, 0.599);
+}
+
+.album_icons i:hover {
+    cursor: pointer;
+    background-color: var(--secondary-bg-color);
+    border-radius: 50px;
+    color: white;
+}
+
+/* ALOT OF SONGS STARTING */
+
+.songs_tags {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: var(--main-color);
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1 / span 3;
+    margin-top: 25px;
+    padding: 0 10px;
+}
+
+.hash_songs {
+    font-size: 1.4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.hash_songs p {
+    margin-left: 85px;
+    margin-bottom: 0;
+    letter-spacing: 0.1rem;
+}
+
+
+.songs_icons i {
+    margin-left: 50px;
+    font-size: 1.6rem;
+    color: var(--main-color);
+}
+
+.alot_songs {
+    padding: 10px
+}
+
+.alot_songs p:first-of-type {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    width: 7%;
+}
+
+
+
+.alot_songs i:first-of-type {
+    margin-right: 35px;
+}
+
+.alot_songs p:nth-of-type(2) {
+    width: 100%;
+}
+
+.alot_songs p:nth-of-type(3) {
+    margin-right: 30px;
+    width: 15%
+}
+
+.alot_songs span {
+    margin-left: auto;
+}
+
+.alot_songs i:last-child {
+    margin-right: 0;
+    color: var(--spotify-color);
+}
+
+.feat_author {
+    background-color: transparent;
+    color: var(--fade-color);
+}
+
+.feat_author:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+/* FOOTER CONTENT */
+
+
+footer {
+    padding: 20px;
+    background-color: var(--bg-color);
+}
+
+.footer_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--main-color);
+}
+
+.range_div {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footer_content .range_div i:first-of-type {
+    font-size: 2.6rem;
+    margin-right: 10px;
+}
+
+.footer_content .range_div i:nth-of-type(2) {
+    font-size: 3rem;
+    margin-right: 10px;
+}
+.footer_content .range_div i:nth-of-type(3) {
+    font-size: 2.6rem;
+}
+
+.footer_content .range_div i:nth-of-type(1):hover,
+.footer_content .range_div i:nth-of-type(2):hover,
+.footer_content .range_div i:nth-of-type(3):hover {
+    cursor: pointer;
+    color: white;
+}
+
+
+.footer_content .lyrics_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.rem;
+}
+
+.footer_content .lyrics_div i:nth-of-type(1):hover,
+.footer_content .lyrics_div i:nth-of-type(2):hover,
+.footer_content .lyrics_div i:nth-of-type(3):hover {
+    cursor: pointer;
+    color: white;
+}
+
+
+
+.footer_content b {
+    color: var(--main-color);
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+}
+
+.footer_content b:first-of-type {
+    margin-right: 20px;
+}
+
+
+.footer_content p:first-of-type:hover {
+    text-decoration: underline;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer_content .devices {
+    color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_content .devices p {
+    font-size: 0.9rem;
+    margin: 0;
+    margin-right: 10px;
+}
+
+
+.footer_content .volume {
+    display: flex;
+    color: var(--main-color);
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.range_button {
+    accent-color: var(--spotify-color);
+    outline: none;
+    overflow: hidden;
+    width: 60vw;
+    height: 4px;
+    
+}
+
+
+.range_button:hover, .volume_range:hover {
+    overflow: visible;
+}
+
+
+
+.volume_range {
+    accent-color: var(--main-color);
+    outline: none;
+    overflow: hidden;
+    width: 40px;
+    height: 4px;
+}

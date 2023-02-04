@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- SPOTIFY FAVICON -->
+        <link rel="shortcut icon" href="./favicon/Spotify_icon.svg"
+            type="image/x-icon">
+
+        <!-- CUSTOM MY STYLES CSS -->
+        <link rel="stylesheet" href="./css/responsive.css">
+        <link rel="stylesheet" href="./css/headerstyle.css">
+        <link rel="stylesheet" href="./css/related_artist.css">
+        <link rel="stylesheet" href="./css/maincontent.css">
+
+        <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,400&display=swap"
+            rel="stylesheet">
+
+        <!-- FONT AWESOME ICONS -->
+        <script src="https://kit.fontawesome.com/03d8a951c7.js"
+            crossorigin="anonymous"></script>
+
+        <!-- BOOTSTRAP CSS -->
+        <link rel="stylesheet"
+            href="./css/bootstrap.css">
+
+        <!-- BOOTSTRAP JS -->
+        <script src="./js/customjs.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="./js/bootstrap.js"></script>
+        <title>Spotify Page</title>
+    </head>
+    <body>
+        <!-- HEADER START -->
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 g-0">
+                        <div class="header_info p-4">
+                            <div class="pointer_input_field">
+                                <i class="fa-solid fa-chevron-left fs-2 ms-2
+                                    me-3 custom_arrow_left"></i>
+                                <i class="fa-solid fa-chevron-right fs-2 ms-3
+                                    me-5 custom_arrow_right"></i>
+                                <div class='input_fields'>
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    <input type="text"
+                                        class="custom_input_field"
+                                        placeholder="Search">
+                                </div>
+                            </div>
+                            <div class="person_information">
+                                <i class="fa-solid fa-bell custom_person_icon"></i>
+                                <i class="fa-solid fa-cloud-arrow-down
+                                    custom_person_icon"></i>
+                                    <div class="d-flex align-items-center">
+                                        <img src="./images/Неозаглавен дизайн.png"
+                                        alt="profile_picture" class="img-fluid
+                                        profile_picture">
+                                        <p class="person_profile mb-0 me-5">Stan Angelov</p>
+                                    </div>
+                                <div class="dropdown">
+                                    <button class="btn border-0" type="button"
+                                        id="triggerId" data-bs-toggle="dropdown"
+                                        aria-haspopup="true"
+                                        aria-expanded="false">
+                                        <i class="fa-solid fa-chevron-down
+                                            custom_dropdown_arrow"></i>
+                                    </button>
+                                    <div class="dropdown-menu p-0 mt-4"
+                                        aria-labelledby="triggerId">
+                                        <a class="dropdown-item fs-4 py-3 px-5"
+                                            href="#">Private Session</a>
+                                        <a class="dropdown-item fs-4 py-3 px-5"
+                                            href="#">Account</a>
+                                        <a class="dropdown-item fs-4 py-3 px-5"
+                                            href="#">Settings</a>
+                                        <a class="dropdown-item fs-4 py-3 px-5"
+                                            href="#">Log Out</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- END OF HEADER SECTION -->
+
+        <!-- START OF SIDE NAV -->
+        <div class="container-fluid g-0 m-0 overflow-x-hidden">
+            <div class="row">
+                <div class="col-sm-12 col-md-2 bg-dark pt-4 ps-0 pe-0 custom_collapse_column">
+                    <!-- FIRST COLLAPSE -->
+                    <div class="custom_collapse_container">
+                        <p class="mb-1 ms-4">
+                            <a class="custom_collapse" data-bs-toggle="collapse"
+                                href="#firstCollapse"
+                                aria-expanded="true"
+                                aria-controls="firstCollapse">
+                                MAIN <i class="fa-solid fa-chevron-down
+                                    collapsed_arrow"></i>
+                            </a>
+                        </p>
+                        <div class="collapse show custom_collapse_content"
+                            id="firstCollapse">
+                            <div class="custom_nav_navigation ms-4">
+                                <i class="fa-solid fa-folder-open"></i>
+                                <p class="custom_main_links">Browse</p>
+                            </div>
+                            <div class="custom_nav_navigation ms-4">
+                                <i class="fa-solid fa-user-group"></i>
+                                <p class="custom_main_links">Activity</p>
+                            </div>
+                            <div class="custom_nav_navigation ms-4">
+                                <i class="fa-solid fa-tower-broadcast"></i>
+                                <p class="custom_main_links">Radio</p>
+                            </div>
+                        </div>
+                        <!-- SECOND COLLAPSE -->
+                        <p class="mb-1 mt-4 ms-4">
+                            <a class="custom_collapse" data-bs-toggle="collapse"
+                                href="#secondCollapse"
+                                aria-expanded="true"
+                                aria-controls="secondCollapse">
+                                YOUR MUSIC <i class="fa-solid fa-chevron-down
+                                    collapsed_arrow"></i>
+                            </a>
+
+                        </p>
+                        <div class="collapse show custom_collapse_content"
+                            id="secondCollapse">
+                            <div class="custom_nav_navigation ms-4">
+                                <i class="fa-solid fa-headphones"></i>
+                                <p class="custom_main_links">Songs</p>
+                            </div>
+                            <div class="custom_nav_navigation ms-4">
+                                <i class="fa-brands fa-itunes-note"></i>
+                                <p class="custom_main_links">Albums</p>
+                            </div>
+                            <div class="custom_nav_navigation ms-4">
+                                <i class="fa-solid fa-user"></i>
+                                <p class="custom_main_links">Artists</p>
+                            </div>
+                            <div class="custom_nav_navigation ms-4">
+                                <i class="fa-regular fa-file"></i>
+                                <p class="custom_main_links">Local Files</p>
+                            </div>
+                        </div>
+
+                        <!-- THIRD COLLAPSE -->
+                        <p class="mb-1 mt-4 ms-4 custom_third_collapse">
+                            <a class="custom_collapse" data-bs-toggle="collapse"
+                                href="#thirdCollapse"
+                                aria-expanded="true"
+                                aria-controls="thirdCollapse">
+                                PLAYLISTS <i class="fa-solid fa-chevron-down
+                                    collapsed_arrow"></i>
+                            </a>
+
+                        </p>
+                        <div class="collapse show custom_collapse_content"
+                            id="thirdCollapse">
+                            <div class="custom_nav_navigation ms-4">
+                                <i class="fa-brands fa-itunes-note"></i>
+                                <p class="custom_main_links">Doo Wop</p>
+                            </div>
+                            <div class="custom_nav_navigation ms-4">
+                                <i class="fa-brands fa-itunes-note"></i>
+                                <p class="custom_main_links">Pop Classics</p>
+                            </div>
+                            <div class="custom_nav_navigation ms-4">
+                                <i class="fa-brands fa-itunes-note"></i>
+                                <p class="custom_main_links">Love Songs</p>
+                            </div>
+                            <div class="custom_nav_navigation ms-4">
+                                <i class="fa-brands fa-itunes-note"></i>
+                                <p class="custom_main_links">Hipster</p>
+                            </div>
+                            <div class="custom_nav_navigation ms-4">
+                                <i class="fa-brands fa-itunes-note"></i>
+                                <p class="custom_main_links">New Music Friday</p>
+                            </div>
+                            <div class="custom_nav_navigation ms-4">
+                                <i class="fa-brands fa-itunes-note"></i>
+                                <p class="custom_main_links">Techno Poppers</p>
+                            </div>
+                            <div class="custom_nav_navigation ms-4">
+                                <i class="fa-brands fa-itunes-note"></i>
+                                <p class="custom_main_links">Summer Soothers</p>
+                            </div>
+                            <div class="custom_nav_navigation ms-4">
+                                <i class="fa-brands fa-itunes-note"></i>
+                                <p class="custom_main_links">Hard Rap</p>
+                            </div>
+                            <div class="custom_nav_navigation ms-4">
+                                <i class="fa-brands fa-itunes-note"></i>
+                                <p class="custom_main_links">Pop Rap</p>
+                            </div>
+                            <div class="custom_nav_navigation ms-4">
+                                <i class="fa-brands fa-itunes-note"></i>
+                                <p class="custom_main_links">Funky</p>
+                            </div>
+                            <div class="custom_nav_navigation ms-4">
+                                <i class="fa-brands fa-itunes-note"></i>
+                                <p class="custom_main_links">Dope Dancin</p>
+                            </div>
+                            <div class="custom_nav_navigation ms-4">
+                                <i class="fa-brands fa-itunes-note"></i>
+                                <p class="custom_main_links">Sleep</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  END OF THE NAVIGATION LINKS-->
+
+                    <!-- NEW PLAYLIST + BANNER -->
+                    <div class="new_playlist_separator">
+                        <div class="new_playlist">
+                            <i class="fa-solid fa-plus"></i>
+                            <p>New Playlist</p>
+                        </div>
+                        <div class="image_author_song">
+                        <div class="image">
+                            <img src="./images/cputh.jpg" alt="Charlie Puth" class="img-fluid custom_charlie_image">
+                        </div>
+                        <div class="author_song">
+                            <p>Some Type of Love</p>
+                            <p>Charlie Puth</p>
+                        </div>
+                        <div class="check">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                       </p>
+                           </div>
+                          </div>
+                     </div>
+                <!-- END OF SIDE NAV -->
+                <!-- START OF MAIN SECTION -->
+                    <div class="col-sm-12 col-md-10 col-xl-10 col-xxl-8 g-0 custom_artist_column">
+                        <img src="./images/custom_bg.png" alt="g-ezy walking" class="img-fluid custom_artist_bg_image">
+                        <div class="custom_background_image_artist">
+                            <div class="custom_author_info">
+                                <div class="author-image">
+                                    <img src="./images/g_eazy_propic.jpg" alt="profile_g_eazy" class="img-fluid custom_geazy_image">
+                                    <i class="fa-solid fa-solid fa-check custom_profile_check"></i>
+                                </div>
+                                <div class="geazy_info">
+                                    <p>ARTIST</p>
+                                    <h1>G-Eazy</h1>
+                                    <button type="button" class="play_artist_button"><span><i class="fa-solid fa-play"></i></span>PLAY</button>
+                                    <button type="button" class="follow_artist_button">FOLLOW</button>
+                                    <button type='button' class="artist_dots"><span>...</span></button>
+                                </div>
+                            </div>
+                            <div class="montly_listeners">
+                                <p>15,662,810</p>
+                                <p>MONTHLY LISTENERS</p>
+                            </div>
+                        </div>
+                        <div class="row m-0">
+                            <ul class="nav nav-pills custom_tabable" id="pills-tab" role="tablist">
+                                <li class="custom_link" role="presentation">
+                                  <button class="custom_nav_link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">OVERVIEW</button>
+                                </li>
+                                <li class="custom_link" role="presentation">
+                                  <button class="custom_nav_link right" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">RELATED ARTISTS</button>
+                                </li>
+                              </ul>
+                              <!-- OVERVIEW CONTENT -->
+                              <div class="tab-content custom_tab_content m-0 p-0" id="pills-tabContent">
+                                <div class="tab-pane fade show active custom_main_content" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                                    <div class="main_content_container">
+                                        <div class="latest_releases">
+                                            <h3>LATEST RELEASE</h3>
+                                            <div class="latest_release_img">
+                                                <img src="./images/whenDarkOut.jpg" alt="latest_release" class="img-fluid latest_image_release">
+                                                <div class="track">
+                                                    <p>Drifting (Track Commentary)</p>
+                                                    <p>4 December 2015</p>
+                                                </div>
+                                            </div>
+                                            <!-- START OF POPULAR -->
+                                            <div class="custom_popular">
+                                                <h3>POPULAR</h3>
+                                                <div class="custom_track">
+                                                    <img src="./images/whenDarkOut.jpg" alt="track1" class="img-fluid track_image">
+                                                    <p>1</p>
+                                                    <i class="fa-solid fa-check"></i>
+                                                    <p>Me, Myself & I</p>
+                                                    <span>EXPLICIT</span>
+                                                    <p>147,544,165</p>
+                                                </div>
+                                                <div class="custom_track">
+                                                    <img src="./images/tth.jpg" alt="track1" class="img-fluid track_image">
+                                                    <p>2</p>
+                                                    <i class="fa-solid fa-plus"></i>
+                                                    <p>I Mean It</p>
+                                                    <span>EXPLICIT</span>
+                                                    <p>74,568,782</p>
+                                                </div>
+                                                <div class="custom_track">
+                                                    <img src="./images/whenDarkOut.jpg" alt="track1" class="img-fluid track_image">
+                                                    <p>3</p>
+                                                    <i class="fa-solid fa-check"></i>
+                                                    <p>Calm Down</p>
+                                                    <span>EXPLICIT</span>
+                                                    <p>13,737,506</p>
+                                                </div>
+                                                <div class="custom_track">
+                                                    <img src="./images/whenDarkOut.jpg" alt="track1" class="img-fluid track_image">
+                                                    <p>4</p>
+                                                    <i class="fa-solid fa-plus"></i>
+                                                    <p>Some Kind Of Drug</p>
+                                                    <span>EXPLICIT</span>
+                                                    <p>12,234,881</p>
+                                                </div>
+                                                <div class="custom_track">
+                                                    <img src="./images/tth.jpg" alt="track1" class="img-fluid track_image">
+                                                    <p>5</p>
+                                                    <i class="fa-solid fa-check"></i>
+                                                    <p>Let's Get Lost</p>
+                                                    <span>EXPLICIT</span>
+                                                    <p>40,882,954</p>
+                                                </div>
+                                            </div>
+                                            <button type="button" class="custom_show_more">SHOW 5 MORE</button>
+                                                <!-- START ALBUMS -->
+                                            </div>
+                                            <div class="custom_albums">
+                                                <div class="list_icons">
+                                                    <h3>ALBUMS</h3>
+                                                    <div class="album_icons">
+                                                        <i class="fa-solid fa-grip"></i>
+                                                        <i class="fa-solid fa-list"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="when_its_dark">
+                                                    <img src="./images/whenDarkOut.jpg" alt="when_its_dark" class="img-fluid album_song">
+                                                    <div class="song_info">
+                                                        <div>
+                                                            <p>2015</p>
+                                                            <h1>When it's Dark Out</h1>
+                                                        </div>
+                                                        <div>
+                                                            <button type="button" class="custom_show_more album_button save">SAVE</button>
+                                                            <button type='button' class="artist_dots album_button"><span>...</span></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- ALOT OF SONGS STARTING -->
+                                                <div class="songs_list">
+                                                    <div class="songs_tags">
+                                                        <div class="hash_songs">
+                                                            <b>#</b>   
+                                                            <p>SONG</p>
+                                                        </div>
+                                                        <div class="songs_icons">
+                                                            <i class="fa-regular fa-clock"></i>
+                                                            <i class="fa-solid fa-thumbs-up"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="custom_track alot_songs">
+                                                        <p>1</p>
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <p>Intro</p>
+                                                        <span>EXPLICIT</span>
+                                                        <p>1:11</p>
+                                                        <i class="fa-solid fa-arrow-trend-up"></i>
+                                                    </div>
+                                                    <div class="custom_track alot_songs">
+                                                        <p>2</p>
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <p>Random</p>
+                                                        <span>EXPLICIT</span>
+                                                        <p>3:00</p>
+                                                        <i class="fa-solid fa-arrow-trend-up"></i>
+                                                    </div>
+                                                    <div class="custom_track alot_songs">
+                                                        <p>3</p>
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <p>Me, Myself & I - <kbd class="feat_author">Bebe Rexha</kbd></p>
+                                                        <span>EXPLICIT</span>
+                                                        <p>4:11</p>
+                                                        <i class="fa-solid fa-arrow-trend-up"></i>
+                                                    </div>
+                                                    <div class="custom_track alot_songs">
+                                                        <p>4</p>
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <p>One Of Them - <kbd class="feat_author">Big Sean</kbd></p>
+                                                        <span>EXPLICIT</span>
+                                                        <p>3:20</p>
+                                                        <i class="fa-solid fa-arrow-trend-down text-danger"></i>
+                                                    </div>
+                                                    <div class="custom_track alot_songs">
+                                                        <p>5</p>
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <p>Drifting - <kbd class="feat_author">Chris Brown,</kbd><kbd class="feat_author">Tory Lanez</kbd></p>
+                                                        <span>EXPLICIT</span>
+                                                        <p>4:33</p>
+                                                        <i class="fa-solid fa-arrow-trend-up"></i>
+                                                    </div>
+                                                    <div class="custom_track alot_songs">
+                                                        <p>6</p>
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <p>Of All Things - <kbd class="feat_author">Too $hort</kbd></p>
+                                                        <span>EXPLICIT</span>
+                                                        <p>3:34</p>
+                                                        <i class="fa-solid fa-arrow-trend-up"></i>
+                                                    </div>
+                                                    <div class="custom_track alot_songs">
+                                                        <p>7</p>
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <p>Order More - <kbd class="feat_author">Starrah</kbd></p>
+                                                        <span>EXPLICIT</span>
+                                                        <p>3:29</p>
+                                                        <i class="fa-solid fa-arrow-trend-up"></i>
+                                                    </div>
+                                                    <div class="custom_track alot_songs">
+                                                        <p>8</p>
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <p>Calm Down</p>
+                                                        <span>EXPLICIT</span>
+                                                        <p>2:07</p>
+                                                        <i class="fa-solid fa-arrow-trend-up"></i>
+                                                    </div>
+                                                    <div class="custom_track alot_songs">
+                                                        <p>9</p>
+                                                        <i class="fa-solid fa-plus"></i>
+                                                        <p>Don't Let Me Go - <kbd class="feat_author">Grace </kbd></p>
+                                                        <span>EXPLICIT</span>
+                                                        <p>3:11</p>
+                                                        <i class="fa-solid fa-arrow-trend-down text-danger"></i>
+                                                    </div>
+                                                    <div class="custom_track alot_songs">
+                                                        <p>10</p>
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <p>You Got Me</p>
+                                                        <span>EXPLICIT</span>
+                                                        <p>3:28</p>
+                                                        <i class="fa-solid fa-arrow-trend-up"></i>
+                                                    </div>
+                                                    <div class="custom_track alot_songs">
+                                                        <p>11</p>
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <p>What If - <kbd class="feat_author">Gizzle</kbd></p>
+                                                        <span>EXPLICIT</span>
+                                                        <p>4:13</p>
+                                                        <i class="fa-solid fa-arrow-trend-up"></i>
+                                                    </div>
+                                                    <div class="custom_track alot_songs">
+                                                        <p>12</p>
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <p>Sad Boy</p>
+                                                        <span>EXPLICIT</span>
+                                                        <p>3:23</p>
+                                                        <i class="fa-solid fa-arrow-trend-up"></i>
+                                                    </div>
+                                                    <div class="custom_track alot_songs">
+                                                        <p>13</p>
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <p>Some Kind Of Drug - <kbd class="feat_author">Marc E. Bassy</kbd></p>
+                                                        <span>EXPLICIT</span>
+                                                        <p>3:42</p>
+                                                        <i class="fa-solid fa-arrow-trend-up"></i>
+                                                    </div>
+                                                    <div class="custom_track alot_songs">
+                                                        <p>14</p>
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <p>Think About You - <kbd class="feat_author">Quin</kbd></p>
+                                                        <span>EXPLICIT</span>
+                                                        <p>5:30</p>
+                                                        <i class="fa-solid fa-arrow-trend-up"></i>
+                                                    </div>
+                                                    <div class="custom_track alot_songs">
+                                                        <p>15</p>
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <p>Everything Will Be OK - <kbd class="feat_author">Kehlani</kbd></p>
+                                                        <span>EXPLICIT</span>
+                                                        <p>2:59</p>
+                                                        <i class="fa-solid fa-arrow-trend-up"></i>
+                                                    </div>
+                                                    <div class="custom_track alot_songs">
+                                                        <p>16</p>
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <p>For This - <kbd class="feat_author">Iamnobodi</kbd></p>
+                                                        <span>EXPLICIT</span>
+                                                        <p>5:11</p>
+                                                        <i class="fa-solid fa-arrow-trend-up"></i>
+                                                    </div>
+                                                    <div class="custom_track alot_songs">
+                                                        <p>17</p>
+                                                        <i class="fa-solid fa-check"></i>
+                                                        <p>Nothing to Me - <kbd class="feat_author">Keyshia Cole,</kbd><kbd class="feat_author">E-40</kbd></p>
+                                                        <span>EXPLICIT</span>
+                                                        <p>4:11</p>
+                                                        <i class="fa-solid fa-arrow-trend-up"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        <!-- START OF RELATED ARTISTS ASIDE-->
+                                        <aside class="related_artists">
+                                            
+                                            <h3>RELATED ARTISTS</h3>
+                                            <div class="artists">
+                                                <div class="related_artists_item">
+                                                    <img src="./images/hoodie.jpg" alt="artist_image" class="img-fluid related_artist_item_img">
+                                                    <p>Hoodie Allen</p>
+                                                </div>
+                                            <div class="related_artists_item">
+                                                <img src="./images/mikestud.jpg" alt="artist_image" class="img-fluid related_artist_item_img">
+                                                <p>Mike Stud</p>
+                                            </div>
+                                            <div class="related_artists_item">
+                                                <img src="./images/drake.jpeg" alt="artist_image" class="img-fluid related_artist_item_img">
+                                                <p>Drake</p>
+                                            </div>
+                                            <div class="related_artists_item">
+                                                <img src="./images/jcole.jpg" alt="artist_image" class="img-fluid related_artist_item_img">
+                                                <p>J. Cole</p>
+                                            </div>
+                                            <div class="related_artists_item">
+                                                <img src="./images/bigsean.jpg" alt="artist_image" class="img-fluid related_artist_item_img">
+                                                <p>Big Sean</p>
+                                            </div>
+                                            <div class="related_artists_item">
+                                                <img src="./images/wiz.jpeg" alt="artist_image" class="img-fluid related_artist_item_img">
+                                                <p>Wiz Khalifa</p>
+                                            </div>
+                                            <div class="related_artists_item">
+                                                <img src="./images/yonas.jpg" alt="artist_image" class="img-fluid related_artist_item_img">
+                                                <p>Yonas</p>
+                                            </div>
+                                        </div>
+                                        </aside>
+                                    </div>
+                                    
+                                </div>
+                                <!-- RELATED ARTIST CONTENT -->
+                                <div class="tab-pane fade custom_main_content" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                                        <div class="related_artist_tab_section">
+                                            <figure>
+                                                <div class="icon_overlay">
+                                                    <i class="fa-solid fa-play"></i>
+                                                </div>
+                                                <img src="./images/hoodie.jpg" alt="hoodie" class="img-fluid related_tab_image">
+                                                <figcaption>Hoodie Allen</figcaption>
+                                            </figure>
+                                            <figure>
+                                                <div class="icon_overlay">
+                                                    <i class="fa-solid fa-play"></i>
+                                                </div>
+                                                <img src="./images/mikestud.jpg" alt="hoodie" class="img-fluid related_tab_image">
+                                                <figcaption>Mike Stud</figcaption>
+                                            </figure>
+                                            <figure>
+                                                <div class="icon_overlay">
+                                                    <i class="fa-solid fa-play"></i>
+                                                </div>
+                                                <img src="./images/drake.jpeg" alt="hoodie" class="img-fluid related_tab_image">
+                                                <figcaption>Drake</figcaption>
+                                            </figure>
+                                            <figure>
+                                                <div class="icon_overlay">
+                                                    <i class="fa-solid fa-play"></i>
+                                                </div>
+                                                <img src="./images/jcole.jpg" alt="hoodie" class="img-fluid related_tab_image">
+                                                <figcaption>J. Cole</figcaption>
+                                            </figure>
+                                            <figure>
+                                                <div class="icon_overlay">
+                                                    <i class="fa-solid fa-play"></i>
+                                                </div>
+                                                <img src="./images/bigsean.jpg" alt="hoodie" class="img-fluid related_tab_image">
+                                                <figcaption>Big Sean</figcaption>
+                                            </figure>
+                                            <figure>
+                                                <div class="icon_overlay">
+                                                    <i class="fa-solid fa-play"></i>
+                                                </div>
+                                                <img src="./images/wiz.jpeg" alt="hoodie" class="img-fluid related_tab_image">
+                                                <figcaption>Wiz Khalifa</figcaption>
+                                            </figure>
+                                            <figure>
+                                                <div class="icon_overlay">
+                                                    <i class="fa-solid fa-play"></i>
+                                                </div>
+                                                <img src="./images/yonas.jpg" alt="hoodie" class="img-fluid related_tab_image">
+                                                <figcaption>Yonas</figcaption>
+                                            </figure>
+                                            <figure>
+                                                <div class="icon_overlay">
+                                                    <i class="fa-solid fa-play"></i>
+                                                </div>
+                                                <img src="./images/cputh.jpg" alt="hoodie" class="img-fluid related_tab_image">
+                                                <figcaption>Charlie Puth</figcaption>
+                                            </figure>
+                                        </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                        <!-- END OF BACKGROUND IMAGE -->
+                        <!-- START OF TABS -->
+                    <div class="col-md-2 find_friends_column g-0">
+                        <aside class="find_friends">
+                            <div class="friend">
+                                <i class="fa-solid fa-user"></i>
+                                <span>Sam Smith</span>
+                            </div>
+                            <div class="friend">
+                                <i class="fa-solid fa-user"></i>
+                                <span>Tarah  Forsyth</span>
+                            </div>
+                            <div class="friend">
+                                <i class="fa-solid fa-user"></i>
+                                <span>Richard Tomkins</span>
+                            </div>
+                            <div class="friend">
+                                <i class="fa-solid fa-user"></i>
+                                <span>Tony Russo</span>
+                            </div>
+                            <div class="friend">
+                                <i class="fa-solid fa-user"></i>
+                                <span>Alyssa Marist</span>
+                            </div>
+                            <div class="friend">
+                                <i class="fa-solid fa-user"></i>
+                                <span>Ron Samson</span>
+                            </div>
+                        </aside>
+                        <div class="friend_button">
+                            <button type="button" class="custom_show_more">FIND FRIENDS</button>
+                        </div>
+                    </div>
+                    <footer>
+                        <div class="footer_content">
+                            <div class="range_div">
+
+                                <i class="fa-solid fa-backward-step"></i>
+                                <i class="fa-solid fa-play"></i>
+                                <i class="fa-solid fa-forward-step"></i>
+                                <b>0:01</b>
+                                <input type="range" min="1" max='100' value='30' class="range_button" id="myinput">
+                                <b>3:07</b>
+                            </div>
+                            
+                            <div class="lyrics_div">
+                                <p class="mb-0 me-5">LYRICS</p>
+                                <i class="fa-solid fa-bars me-5"></i>
+                                <i class="fa-solid fa-shuffle me-5"></i>
+                                <i class="fa-solid fa-arrows-rotate me-5"></i>
+                                <div class="devices me-2">
+                                    <i class="fa-solid fa-mobile-screen me-2"></i>
+                                    <p>DEVICES AVAILABLE</p>
+                                </div>
+                                <div class="volume">
+                                    <i class="fa-solid fa-volume-high"></i>
+                                    <input type="range" class="volume_range" min="1" max="100" value="80">
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        <!-- START OF FOOTER -->
+    </body>
+</html>

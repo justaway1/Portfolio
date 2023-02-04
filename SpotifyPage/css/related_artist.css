@@ -1,0 +1,59 @@
+/* START OF RELATED ARTIST SECTION */
+:root {
+    --main-color: rgba(235, 227, 227, 0.844);
+    --fade-color: rgba(235, 227, 227, 0.574);
+    --bg-color: rgba(0, 0, 0, 0.821);
+    --secondary-bg-color: rgba(75, 74, 74, 0.414);
+    --spotify-color: #1DB954;
+}
+
+.related_artist_tab_section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    padding: 20px;
+}
+
+
+figcaption {
+    color: var(--main-color);
+    padding: 15px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-color: var(--secondary-bg-color);
+}
+
+figure {
+    position: relative;
+}
+
+.icon_overlay {
+    position: absolute;
+    color: white;
+    font-size: 5rem;
+    left: 90px;
+    top: 80px;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+    filter: drop-shadow(1px 1px 3px black);
+}
+
+figure:hover .icon_overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+figure:hover {
+    cursor: pointer;
+}
+
+
+figcaption:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.related_tab_image {
+    width: 100%;
+    object-fit: cover;
+}
