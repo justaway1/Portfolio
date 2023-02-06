@@ -29,16 +29,16 @@
             href="./css/bootstrap.css">
 
         <!-- BOOTSTRAP JS -->
-        <script src="./js/customjs.js"></script>
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
         <script src="./js/bootstrap.js"></script>
+        
         <title>Spotify Page</title>
     </head>
     <body>
         <!-- HEADER START -->
         <header>
-            <div class="container-fluid">
+            <div class="container-fluid" id="scrollTop">
                 <div class="row">
                     <div class="col-md-12 g-0">
                         <div class="header_info p-4">
@@ -241,24 +241,24 @@
                      </div>
                 <!-- END OF SIDE NAV -->
                 <!-- START OF MAIN SECTION -->
-                    <div class="col-sm-12 col-md-10 col-xl-10 col-xxl-8 g-0 custom_artist_column">
-                        <img src="./images/custom_bg.png" alt="g-ezy walking" class="img-fluid custom_artist_bg_image">
+                    <div class="col-sm-12 col-md-10 col-xl-10 col-xxl-8 g-0 custom_artist_column" id="top">
+                        <img src="./images/custom_bg.png" id='custom_bg' alt="g-ezy walking" class="img-fluid custom_artist_bg_image">
                         <div class="custom_background_image_artist">
                             <div class="custom_author_info">
                                 <div class="author-image">
-                                    <img src="./images/g_eazy_propic.jpg" alt="profile_g_eazy" class="img-fluid custom_geazy_image">
+                                    <img src="./images/g_eazy_propic.jpg" alt="profile_g_eazy" class="img-fluid custom_geazy_image" id="author_image">
                                     <i class="fa-solid fa-solid fa-check custom_profile_check"></i>
                                 </div>
                                 <div class="geazy_info">
                                     <p>ARTIST</p>
-                                    <h1>G-Eazy</h1>
+                                    <h1 id="gz">G-Eazy</h1>
                                     <button type="button" class="play_artist_button"><span><i class="fa-solid fa-play"></i></span>PLAY</button>
                                     <button type="button" class="follow_artist_button">FOLLOW</button>
                                     <button type='button' class="artist_dots"><span>...</span></button>
                                 </div>
                             </div>
                             <div class="montly_listeners">
-                                <p>15,662,810</p>
+                                <p id="montly">15,662,810</p>
                                 <p>MONTHLY LISTENERS</p>
                             </div>
                         </div>
@@ -508,33 +508,37 @@
                                             
                                             <h3>RELATED ARTISTS</h3>
                                             <div class="artists">
-                                                <div class="related_artists_item">
+                                                <div class="related_artists_item" id="1">
                                                     <img src="./images/hoodie.jpg" alt="artist_image" class="img-fluid related_artist_item_img">
                                                     <p>Hoodie Allen</p>
                                                 </div>
-                                            <div class="related_artists_item">
+                                            <div class="related_artists_item" id='2'>
                                                 <img src="./images/mikestud.jpg" alt="artist_image" class="img-fluid related_artist_item_img">
                                                 <p>Mike Stud</p>
                                             </div>
-                                            <div class="related_artists_item">
+                                            <div class="related_artists_item" id="3">
                                                 <img src="./images/drake.jpeg" alt="artist_image" class="img-fluid related_artist_item_img">
                                                 <p>Drake</p>
                                             </div>
-                                            <div class="related_artists_item">
+                                            <div class="related_artists_item" id="4">
                                                 <img src="./images/jcole.jpg" alt="artist_image" class="img-fluid related_artist_item_img">
                                                 <p>J. Cole</p>
                                             </div>
-                                            <div class="related_artists_item">
+                                            <div class="related_artists_item" id="5">
                                                 <img src="./images/bigsean.jpg" alt="artist_image" class="img-fluid related_artist_item_img">
                                                 <p>Big Sean</p>
                                             </div>
-                                            <div class="related_artists_item">
+                                            <div class="related_artists_item" id="6">
                                                 <img src="./images/wiz.jpeg" alt="artist_image" class="img-fluid related_artist_item_img">
                                                 <p>Wiz Khalifa</p>
                                             </div>
-                                            <div class="related_artists_item">
+                                            <div class="related_artists_item" id="7">
                                                 <img src="./images/yonas.jpg" alt="artist_image" class="img-fluid related_artist_item_img">
                                                 <p>Yonas</p>
+                                            </div>
+                                            <div class="related_artists_item" id="8">
+                                                <img src="./images/g_eazy_propic.jpg" alt="artist_image" class="img-fluid related_artist_item_img">
+                                                <p>G-Eazy</p>
                                             </div>
                                         </div>
                                         </aside>
@@ -670,4 +674,6 @@
             </div>
         <!-- START OF FOOTER -->
     </body>
+
+    <script src="./customjs/customjs.js"></script>
 </html>
