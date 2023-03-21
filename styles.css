@@ -421,6 +421,6 @@ figure:hover figcaption:before {
 
   .vue-projects h2 {
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
 }
