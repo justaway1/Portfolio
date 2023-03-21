@@ -23,7 +23,7 @@
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
-  font-family: 'Lilita One', 'Mitr-Bold', 'Asimov Print'sans-serif;
+  font-family: 'Lilita One', Mitr-Bold, Asimov Print sans-serif;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -101,7 +101,7 @@ a {
   margin: 0 10px 0 10px;
   text-transform: uppercase;
   letter-spacing: 0.6rem;
-  font-family: 'Lilita One', 'Mitr-Bold', 'Asimov Print'sans-serif;
+  font-family: 'Lilita One', Mitr-Bold, Asimov Print sans-serif;
 }
 
 
@@ -174,7 +174,7 @@ a {
 }
 
 .welcome_text {
-  font-family: 'Lilita One', 'Mitr-Bold', 'Asimov Print'sans-serif;
+  font-family: 'Lilita One', Mitr-Bold, Asimov Print sans-serif;
   font-size: 4.5rem;
   background-color: var(--header-color);
   border-radius: 5px;
@@ -186,7 +186,7 @@ a {
 
 .main-content-text .title {
   font-size: 12rem;
-  font-family: 'Lilita One', 'Mitr-Bold', 'Asimov Print'sans-serif;
+  font-family: 'Lilita One', Mitr-Bold, Asimov Print sans-serif;
   line-height: 1;
   padding-left: 5px;
 }
@@ -194,7 +194,7 @@ a {
 .main-content-text .subtitle {
   font-size: 2rem;
   text-align: right;
-  font-family: 'Lilita One', 'Mitr-Bold', 'Asimov Print'sans-serif;
+  font-family: 'Lilita One', Mitr-Bold, Asimov Print sans-serif;
   color: var(--header-color);
   background-color: white;
   padding-right: 5px;
@@ -207,7 +207,7 @@ a {
   background-color: var(--project-section2);
   color: white;
   font-size: 2rem;
-  font-family: 'Lilita One', 'Mitr-Bold', 'Asimov Print'sans-serif;
+  font-family: 'Lilita One', Mitr-Bold, Asimov Print sans-serif;
   text-transform: uppercase;
 
 }
@@ -256,7 +256,7 @@ a {
   background-color: var(--header-color);
   width: 100%;
   border-radius: 5px;
-  font-family: 'Lilita One', 'Mitr-Bold', 'Asimov Print'sans-serif;
+  font-family: 'Lilita One', Mitr-Bold, Asimov Print sans-serif;
   letter-spacing: 0.1rem;
   -webkit-box-shadow: -3px 3px 2px rgba(16, 16, 16, 0.497);
   box-shadow: -3px 3px 2px rgba(16, 16, 16, 0.497);
@@ -332,7 +332,7 @@ figure:hover figcaption:before {
   background: linear-gradient(to top right,
       rgb(8, 8, 8)0%, rgba(8, 8, 8, 0.805)5%, rgba(21, 1, 1, 0.62));
   color: rgba(255, 255, 255, 0.832);
-  font-family: 'Lilita One', 'Mitr-Bold', 'Asimov Print'sans-serif;
+  font-family: 'Lilita One', Mitr-Bold, Asimov Print sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
 }
@@ -373,13 +373,13 @@ figure:hover figcaption:before {
 .work h1 {
   font-size: 7rem;
   margin-bottom: 6px;
-  font-family: 'Lilita One', 'Mitr-Bold', 'Asimov Print'sans-serif;
+  font-family: 'Lilita One', Mitr-Bold, Asimov Print sans-serif;
 }
 
 .work p {
   font-size: 2rem;
   font-style: italic;
-  font-family: 'Lilita One', 'Mitr-Bold', 'Asimov Print'sans-serif;
+  font-family: 'Lilita One', Mitr-Bold, Asimov Print sans-serif;
 }
 
 #social-links .social {
@@ -387,7 +387,7 @@ figure:hover figcaption:before {
   place-items: center;
   text-align: center;
   font-size: 2rem;
-  font-family: 'Lilita One', 'Mitr-Bold', 'Asimov Print'sans-serif;
+  font-family: 'Lilita One', Mitr-Bold, Asimov Print sans-serif;
 }
 
 
@@ -424,7 +424,7 @@ figure:hover figcaption:before {
   align-items: center;
   font-size: 1.5rem;
   padding: 15px;
-  font-family: 'Lilita One', 'Mitr-Bold', 'Asimov Print'sans-serif;
+  font-family: 'Lilita One', Mitr-Bold, Asimov Print sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
 }
