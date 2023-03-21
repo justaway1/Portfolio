@@ -217,10 +217,12 @@ a {
   outline-style: inset;
   margin: 0 5px;
   padding: 0 3px;
+  letter-spacing: normal;
 }
 
 .vue-projects h2 {
   background-color: #41B883;
+  letter-spacing: 0.12rem;
   width: 50%;
   padding: 10px;
   border-radius: 5px;
@@ -258,10 +260,13 @@ a {
   letter-spacing: 0.1rem;
   -webkit-box-shadow: -3px 3px 2px rgba(16, 16, 16, 0.497);
   box-shadow: -3px 3px 2px rgba(16, 16, 16, 0.497);
+  text-transform: uppercase;
 
 }
 
 figcaption {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
   text-align: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
