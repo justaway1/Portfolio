@@ -1,4 +1,12 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 *, :after, :before {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -21,6 +29,7 @@ html {
 
 img {
   width: 100%;
+  -o-object-fit: cover;
   object-fit: cover;
   aspect-ratio: 16 / 9;
   height: 100%;
@@ -55,6 +64,7 @@ a {
   width: 100vw;
   overflow: hidden;
   border-radius: 5px;
+  -webkit-box-shadow: 10px 1px 1px rgb(51, 51, 51);
   box-shadow: 10px 1px 1px rgb(51, 51, 51);
   padding: 0 20px;
   border-bottom: 3px solid rgba(244, 244, 244, 0.838);
@@ -68,10 +78,18 @@ a {
 
 
 #navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: right;
+  -ms-flex-pack: right;
   justify-content: right;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-right: 30px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 
 }
@@ -89,10 +107,18 @@ a {
 
 
 #navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: right;
+  -ms-flex-pack: right;
   justify-content: right;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-right: 30px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 
 }
@@ -106,11 +132,22 @@ a {
 
 #welcome-section {
   height: 100vh;
+  background: -webkit-gradient(linear,
+      left bottom, right top,
+      from(rgba(8, 8, 8, 0.743)), color-stop(5%, rgba(8, 8, 8, 0.77)), to(rgba(0, 0, 0, 0.859)));
+  background: -o-linear-gradient(bottom left,
+      rgba(8, 8, 8, 0.743)0%, rgba(8, 8, 8, 0.77)5%, rgba(0, 0, 0, 0.859));
   background: linear-gradient(to top right,
       rgba(8, 8, 8, 0.743)0%, rgba(8, 8, 8, 0.77)5%, rgba(0, 0, 0, 0.859));
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   color: white;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   padding: 20px;
 }
@@ -121,6 +158,11 @@ a {
 
 .amper {
   color: white;
+  background: -webkit-gradient(linear,
+      left bottom, right top,
+      from(rgba(8, 8, 8, 0.743)), color-stop(5%, rgba(8, 8, 8, 0.77)), to(rgba(0, 0, 0, 0.859)));
+  background: -o-linear-gradient(bottom left,
+      rgba(8, 8, 8, 0.743)0%, rgba(8, 8, 8, 0.77)5%, rgba(0, 0, 0, 0.859));
   background: linear-gradient(to top right,
       rgba(8, 8, 8, 0.743)0%, rgba(8, 8, 8, 0.77)5%, rgba(0, 0, 0, 0.859));
 }
@@ -182,14 +224,19 @@ a {
   padding: 10px;
   border-radius: 5px;
   border-bottom: 3px solid rgba(244, 244, 244, 0.838);
+  -webkit-box-shadow: -3px 3px 2px rgba(16, 16, 16, 0.497);
   box-shadow: -3px 3px 2px rgba(16, 16, 16, 0.497);
 }
 
 #projects {
   background-color: var(--project-section2);
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 2.3rem 1fr 2.3rem 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 100px 100px 30px;
+  -webkit-column-gap: 2.3rem;
+  -moz-column-gap: 2.3rem;
   column-gap: 2.3rem;
   row-gap: 3rem;
 }
@@ -208,25 +255,35 @@ a {
   border-radius: 5px;
   font-family: 'Lilita One', sans-serif;
   letter-spacing: 0.1rem;
+  -webkit-box-shadow: -3px 3px 2px rgba(16, 16, 16, 0.497);
   box-shadow: -3px 3px 2px rgba(16, 16, 16, 0.497);
 
 }
 
 figcaption {
   text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   padding: 20px;
+  background: -webkit-gradient(linear,
+      left bottom, right top,
+      from(rgb(8, 8, 8)), color-stop(5%, rgba(8, 8, 8, 0.805)), to(rgba(21, 1, 1, 0.62)));
+  background: -o-linear-gradient(bottom left,
+      rgb(8, 8, 8)0%, rgba(8, 8, 8, 0.805)5%, rgba(21, 1, 1, 0.62));
   background: linear-gradient(to top right,
       rgb(8, 8, 8)0%, rgba(8, 8, 8, 0.805)5%, rgba(21, 1, 1, 0.62));
   font-size: 1.6rem;
   color: rgba(255, 255, 255, 0.832);
   cursor: pointer;
+  -webkit-box-shadow: -3px 3px 2px rgba(16, 16, 16, 0.497);
   box-shadow: -3px 3px 2px rgba(16, 16, 16, 0.497);
 }
 
 figure {
   margin-bottom: 55px;
   border-radius: 3px;
+  -webkit-box-shadow: -3px 3px 2px rgba(16, 16, 16, 0.497);
   box-shadow: -3px 3px 2px rgba(16, 16, 16, 0.497);
 }
 
@@ -250,6 +307,7 @@ figure:hover figcaption:before {
 }
 
 #link-btn {
+  -ms-grid-column: 2;
   grid-column: 2;
   margin: 30px auto;
   padding: 13px 30px;
@@ -257,7 +315,14 @@ figure:hover figcaption:before {
   border-radius: 3px;
   border: none;
   text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  background: -webkit-gradient(linear,
+      left bottom, right top,
+      from(rgb(8, 8, 8)), color-stop(5%, rgba(8, 8, 8, 0.805)), to(rgba(21, 1, 1, 0.62)));
+  background: -o-linear-gradient(bottom left,
+      rgb(8, 8, 8)0%, rgba(8, 8, 8, 0.805)5%, rgba(21, 1, 1, 0.62));
   background: linear-gradient(to top right,
       rgb(8, 8, 8)0%, rgba(8, 8, 8, 0.805)5%, rgba(21, 1, 1, 0.62));
   color: rgba(255, 255, 255, 0.832);
@@ -274,10 +339,17 @@ figure:hover figcaption:before {
 }
 
 #social-links {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-rows: 1fr 6rem 1fr;
   grid-template-rows: 1fr 1fr;
   padding: 180px 0px 100px 0;
   row-gap: 6rem;
+  background: -webkit-gradient(linear,
+      left bottom, right top,
+      from(rgba(8, 8, 8, 0.743)), color-stop(5%, rgba(8, 8, 8, 0.77)), to(rgba(0, 0, 0, 0.859)));
+  background: -o-linear-gradient(bottom left,
+      rgba(8, 8, 8, 0.743)0%, rgba(8, 8, 8, 0.77)5%, rgba(0, 0, 0, 0.859));
   background: linear-gradient(to top right,
       rgba(8, 8, 8, 0.743)0%, rgba(8, 8, 8, 0.77)5%, rgba(0, 0, 0, 0.859));
   border-bottom: 5px solid var(--header-color);
@@ -286,6 +358,8 @@ figure:hover figcaption:before {
 #social-links .work {
   grid-column: 1 / -1;
   text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   color: rgba(255, 255, 255, 0.832);
 }
@@ -323,15 +397,24 @@ figure:hover figcaption:before {
 }
 
 .social a:hover {
+  -webkit-transition: bottom 3s ease-in-out linear;
+  -o-transition: bottom 3s ease-in-out linear;
   transition: bottom 3s ease-in-out linear;
   bottom: -20px;
 }
 
 .main-footer {
+  background: -webkit-gradient(linear,
+      left bottom, right top,
+      from(rgba(8, 8, 8, 0.743)), color-stop(5%, rgba(8, 8, 8, 0.77)), to(rgba(0, 0, 0, 0.859)));
+  background: -o-linear-gradient(bottom left,
+      rgba(8, 8, 8, 0.743)0%, rgba(8, 8, 8, 0.77)5%, rgba(0, 0, 0, 0.859));
   background: linear-gradient(to top right,
       rgba(8, 8, 8, 0.743)0%, rgba(8, 8, 8, 0.77)5%, rgba(0, 0, 0, 0.859));
   color: rgba(255, 255, 255, 0.832);
   text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   font-size: 1.5rem;
   padding: 15px;
@@ -346,6 +429,7 @@ figure:hover figcaption:before {
 
 @media only screen and (max-width: 1200px) {
   #projects {
+    -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
   }
 
@@ -377,8 +461,14 @@ figure:hover figcaption:before {
 
 
   #welcome-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin: 0;
     padding: 150px 20px;
@@ -408,14 +498,22 @@ figure:hover figcaption:before {
   }
 
   #projects {
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
 
   .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     height: 50px;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 
