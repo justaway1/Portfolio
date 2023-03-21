@@ -216,6 +216,7 @@ a {
   color: #34495e;
   outline-style: inset;
   margin: 0 5px;
+  padding: 0 3px;
 }
 
 .vue-projects h2 {
